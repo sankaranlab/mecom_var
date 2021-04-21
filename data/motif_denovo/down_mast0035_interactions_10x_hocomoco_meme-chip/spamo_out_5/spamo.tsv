@@ -1,0 +1,60 @@
+prim_db	prim_id	prim_alt	sec_db	sec_id	sec_alt	trim_left	trim_right	red_db	red_id	red_alt	E-value	gap	orient	count	total	adj_p-value	p-value
+dreme.xml	DACCACA	DREME	meme.xml	6	MEME	0	0	.	.	.	3.26e-10	52	0	8	27	7.91e-17	7.12e-16
+dreme.xml	DACCACA	DREME	meme.xml	6	MEME	0	0	.	.	.	3.26e-10	52	4	8	27	1.96e-14	1.76e-13
+dreme.xml	DACCACA	DREME	meme.xml	6	MEME	0	0	.	.	.	3.26e-10	52	5	8	27	1.96e-14	1.76e-13
+dreme.xml	DACCACA	DREME	meme.xml	6	MEME	0	0	.	.	.	3.26e-10	52	8	8	27	4.67e-12	4.20e-11
+dreme.xml	DACCACA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	PO2F2_HUMAN.H11MO.0.A	.	1	1	.	.	.	7.09e-02	3	0	11	740	1.47e-08	1.32e-07
+dreme.xml	DACCACA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	PO2F2_HUMAN.H11MO.0.A	.	1	1	.	.	.	7.09e-02	3	5	13	740	3.85e-07	3.46e-06
+dreme.xml	DACCACA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	PO2F2_HUMAN.H11MO.0.A	.	1	1	.	.	.	7.09e-02	3	4	12	740	1.98e-06	1.78e-05
+dreme.xml	DACCACA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	PO2F1_HUMAN.H11MO.0.C	.	0	0	HOCOMOCOv11_core_HUMAN_mono_meme_format	PO2F2_HUMAN.H11MO.0.A	.	3.81e-01	1	0	10	671	8.29e-08	7.46e-07
+dreme.xml	DACCACA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	PO2F1_HUMAN.H11MO.0.C	.	0	0	HOCOMOCOv11_core_HUMAN_mono_meme_format	PO2F2_HUMAN.H11MO.0.A	.	3.81e-01	1	4	12	671	1.24e-06	1.12e-05
+dreme.xml	DACCACA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	PO2F1_HUMAN.H11MO.0.C	.	0	0	HOCOMOCOv11_core_HUMAN_mono_meme_format	PO2F2_HUMAN.H11MO.0.A	.	3.81e-01	1	5	12	671	1.24e-06	1.12e-05
+dreme.xml	DACCACA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	TBX3_HUMAN.H11MO.0.C	.	2	0	.	.	.	2.19e-01	19	1	14	1422	4.54e-08	4.09e-07
+dreme.xml	DACCACA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	TBX3_HUMAN.H11MO.0.C	.	2	0	.	.	.	2.19e-01	19	4	18	1422	5.79e-07	5.22e-06
+dreme.xml	DACCACA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	TBX3_HUMAN.H11MO.0.C	.	2	0	.	.	.	2.19e-01	19	6	18	1422	5.79e-07	5.22e-06
+dreme.xml	DACCACA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN770_HUMAN.H11MO.0.C	.	0	1	.	.	.	2.53e-01	10	1	10	620	5.71e-08	5.14e-07
+dreme.xml	DACCACA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN770_HUMAN.H11MO.0.C	.	0	1	.	.	.	2.53e-01	10	6	11	620	4.28e-06	3.85e-05
+dreme.xml	DACCACA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	ELF3_HUMAN.H11MO.0.A	.	2	2	.	.	.	4.52e-01	7	0	11	889	9.43e-08	8.49e-07
+dreme.xml	DACCACA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	EHF_HUMAN.H11MO.0.B	.	2	3	HOCOMOCOv11_core_HUMAN_mono_meme_format	ELF3_HUMAN.H11MO.0.A	.	3.21e+00	7	0	9	699	6.71e-07	6.04e-06
+dreme.xml	DACCACA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	NR1H4_HUMAN.H11MO.0.B	.	1	0	.	.	.	1.02e+00	83	7	10	372	2.26e-07	2.04e-06
+dreme.xml	DACCACA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	NR1H4_HUMAN.H11MO.0.B	.	1	0	.	.	.	1.02e+00	83	8	13	372	7.62e-07	6.86e-06
+dreme.xml	DACCACA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	NR1H4_HUMAN.H11MO.0.B	.	1	0	.	.	.	1.02e+00	83	5	9	372	1.67e-06	1.51e-05
+dreme.xml	DACCACA	DREME	meme.xml	4	MEME	0	0	.	.	.	1.29e+00	82	1	4	47	3.06e-07	2.75e-06
+dreme.xml	DACCACA	DREME	meme.xml	4	MEME	0	0	.	.	.	1.29e+00	82	4	4	47	4.56e-06	4.11e-05
+dreme.xml	DACCACA	DREME	meme.xml	4	MEME	0	0	.	.	.	1.29e+00	82	6	4	47	4.56e-06	4.11e-05
+dreme.xml	DACCACA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	FOXC1_HUMAN.H11MO.0.C	.	2	0	.	.	.	4.33e+00	85	6	7	194	9.28e-07	8.35e-06
+dreme.xml	DACCACA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	HXA13_HUMAN.H11MO.0.C	.	2	0	.	.	.	4.92e+00	97	7	12	692	1.03e-06	9.23e-06
+dreme.xml	DACCACA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	PPARA_HUMAN.H11MO.0.B	.	1	0	.	.	.	5.75e+00	33	1	9	725	1.26e-06	1.13e-05
+##
+# Detailed descriptions of columns in this file:
+#
+# prim_db:	The name of the database (file name) that contains the primary motif.
+# prim_id:	A name for the primary motif that is unique in the motif database file.
+# prim_alt:	An alternate name of the primary motif that may be provided
+#		in the motif database file.
+# sec_db:	The name of the database (file name) that contains the secondary motif.
+# sec_id:	A name for the motif that is unique in the motif database file.
+# sec_alt:	An alternate name of the secondary motif that may be provided
+#		in the motif database file.
+# trim_left:	Number of positions trimmed from left of secondary motif
+# trim_right:	Number of positions trimmed from right of secondary motif
+# If the next three fields are not blank, the motif is redundant with a more significant ('parent') motif.
+# red_db:	The database (file name) that contains the parent motif.
+# red_id:	A name for the parent motif that is unique in the motif database file.
+# red_alt:	An alternate name of the parent motif that may be provided
+#		in the motif database file.
+# E-value:	The expected number motifs that would have least one
+#		spacing as enriched as the best spacing for this secondary.
+#		The E-value is the best spacing p-value multiplied by the number of motifs in the
+#		input database(s).
+# gap:		The distance between the edge of the primary and the (trimmed) secondary motif.
+# orient:	The (combination) of quadrants for which occurrences
+#		of this spacing are combined.
+# count:	The number of occurrences of the secondary motif with the
+#		given spacing and orientation to the primary motif.
+# total:	The total number of occurrences of the secondary motif within the
+#		margins around the best primary motif occurrence.
+# adj_p-value:	The p-value of the gap and orientation, adjusted for
+#		nine combinations of quadrants times the number of gaps tested
+#		(as controlled by the -range switch).
+# p-value:	The p-value of the gap and orientation adjusted only for the number of gaps tested.

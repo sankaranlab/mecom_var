@@ -1,0 +1,24 @@
+# 1-order Markov frequencies from file /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/all_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_all_mast0035_fa_1based.fa
+# seqs: 13184    min: 500    max: 500    avg: 500.0    sum: 6592000    alph: DNA
+# order 0
+A 2.443e-01
+C 2.557e-01
+G 2.557e-01
+T 2.443e-01
+# order 1
+AA 7.064e-02
+AC 4.920e-02
+AG 7.532e-02
+AT 4.913e-02
+CA 7.092e-02
+CC 7.862e-02
+CG 3.087e-02
+CT 7.532e-02
+GA 6.024e-02
+GC 6.766e-02
+GG 7.862e-02
+GT 4.920e-02
+TA 4.246e-02
+TC 6.024e-02
+TG 7.092e-02
+TT 7.064e-02

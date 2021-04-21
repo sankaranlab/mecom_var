@@ -1,0 +1,6 @@
+P2M	0.0
+P2UL	NaN
+P2UR	0.0
+P2LL	NaN
+P2LR	NaN
+ZscoreLL	NaN

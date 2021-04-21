@@ -1,0 +1,232 @@
+# WARNING: this file is not sorted!
+# db	id                         alt	 E-value	adj_p-value	log_adj_p-value	bin_location	bin_width	total_width	sites_in_bin	total_sites	p_success	 p-value	mult_tests
+   1	2                         MEME	2.8e-004	   6.7e-007	         -14.22	         0.0	      215	        471	        1982	       3940	  0.45648	2.8e-009	       235
+   1	3                         MEME	1.6e-073	   3.8e-076	        -173.65	         0.0	      175	        493	        1856	       3665	  0.35497	1.6e-078	       246
+   1	8                         MEME	1.4e-003	   3.2e-006	         -12.64	         0.0	      200	        480	         924	       1925	  0.41667	1.4e-008	       239
+   1	9                         MEME	1.2e-063	   2.8e-066	        -150.94	         0.0	      170	        480	         674	       1097	  0.35417	1.2e-068	       239
+   2	AGGAARY                  DREME	3.7e-105	   8.7e-108	        -246.51	         0.0	      178	        494	        1923	       3529	  0.36032	3.6e-110	       246
+   2	DACCACA                  DREME	2.9e-046	   6.9e-049	        -110.90	         0.0	      146	        494	         791	       1684	  0.29555	2.8e-051	       246
+   2	VGGAAR                   DREME	2.0e-018	   4.7e-021	         -46.81	         0.0	      175	        495	        2571	       6203	  0.35354	1.9e-023	       247
+   2	RTGACKCA                 DREME	1.1e-040	   2.7e-043	         -98.02	         0.0	      161	        493	         354	        575	  0.32657	1.1e-045	       246
+   2	CNCMGCC                  DREME	1.9e-004	   4.5e-007	         -14.61	         0.0	      164	        494	        1446	       3831	  0.33198	1.8e-009	       246
+   2	GTGRC                    DREME	1.3e-009	   3.0e-012	         -26.52	         0.0	      206	        496	        2671	       5741	  0.41532	1.2e-014	       247
+   2	AGAKGGCR                 DREME	3.5e-013	   8.4e-016	         -34.72	         0.0	      267	        493	         522	        749	  0.54158	3.4e-018	       246
+   2	DGTTCCTC                 DREME	1.6e-007	   3.8e-010	         -21.70	         0.0	      189	        493	         289	        542	  0.38337	1.5e-012	       246
+   3	AHR_HUMAN.H11MO.0.B AHR_HUMAN.H11MO.0.B	2.8e-001	   6.8e-004	          -7.30	         0.0	      142	        492	        1213	       3758	  0.28862	2.8e-006	       245
+   3	AP2B_HUMAN.H11MO.0.B AP2B_HUMAN.H11MO.0.B	5.5e0000	   1.3e-002	          -4.33	         0.0	      391	        491	        4643	       5684	  0.79633	5.4e-005	       245
+   3	ARNT_HUMAN.H11MO.0.B ARNT_HUMAN.H11MO.0.B	8.0e-005	   1.9e-007	         -15.47	         0.0	      184	        492	        1806	       4312	  0.37398	7.8e-010	       245
+   3	ASCL1_HUMAN.H11MO.0.A ASCL1_HUMAN.H11MO.0.A	1.7e-006	   4.0e-009	         -19.34	         0.0	      163	        487	        2082	       5518	  0.33470	1.6e-011	       243
+   3	ATF1_HUMAN.H11MO.0.B ATF1_HUMAN.H11MO.0.B	2.6e-013	   6.3e-016	         -35.00	         0.0	      158	        490	        2136	       5665	  0.32245	2.6e-018	       244
+   3	ATF2_HUMAN.H11MO.0.B ATF2_HUMAN.H11MO.0.B	4.6e-003	   1.1e-005	         -11.42	         0.0	      108	        490	        1328	       5279	  0.22041	4.5e-008	       244
+   3	ATF3_HUMAN.H11MO.0.A ATF3_HUMAN.H11MO.0.A	9.8e-014	   2.3e-016	         -35.99	         0.0	      126	        490	        1518	       4841	  0.25714	9.6e-019	       244
+   3	ATF4_HUMAN.H11MO.0.A ATF4_HUMAN.H11MO.0.A	1.2e0000	   2.8e-003	          -5.86	         0.0	       59	        489	         269	       1733	  0.12065	1.2e-005	       244
+   3	ATF6A_HUMAN.H11MO.0.B ATF6A_HUMAN.H11MO.0.B	7.4e-007	   1.8e-009	         -20.16	         0.0	      195	        489	         567	       1138	  0.39877	7.2e-012	       244
+   3	ATOH1_HUMAN.H11MO.0.B ATOH1_HUMAN.H11MO.0.B	2.1e-016	   4.9e-019	         -42.16	         0.0	      174	        492	        2067	       4937	  0.35366	2.0e-021	       245
+   3	BACH1_HUMAN.H11MO.0.A BACH1_HUMAN.H11MO.0.A	1.4e-014	   3.4e-017	         -37.92	         0.0	      234	        488	        2805	       5175	  0.47951	1.4e-019	       243
+   3	BACH2_HUMAN.H11MO.0.A BACH2_HUMAN.H11MO.0.A	7.6e-022	   1.8e-024	         -54.68	         0.0	      240	        490	        2959	       5252	  0.48980	7.4e-027	       244
+   3	BC11A_HUMAN.H11MO.0.A BC11A_HUMAN.H11MO.0.A	1.0e-017	   2.5e-020	         -45.15	         0.0	       98	        484	        1643	       6509	  0.20248	1.0e-022	       241
+   3	BHA15_HUMAN.H11MO.0.B BHA15_HUMAN.H11MO.0.B	4.8e-014	   1.1e-016	         -36.71	         0.0	      228	        490	        2866	       5458	  0.46531	4.7e-019	       244
+   3	BHE40_HUMAN.H11MO.0.A BHE40_HUMAN.H11MO.0.A	4.9e-002	   1.2e-004	          -9.06	         0.0	      149	        491	        1570	       4660	  0.30346	4.7e-007	       245
+   3	BMAL1_HUMAN.H11MO.0.A BMAL1_HUMAN.H11MO.0.A	9.1e-002	   2.2e-004	          -8.44	         0.0	      166	        490	        1923	       5192	  0.33878	8.8e-007	       244
+   3	CEBPD_HUMAN.H11MO.0.C CEBPD_HUMAN.H11MO.0.C	1.3e-002	   3.2e-005	         -10.36	         0.0	      192	        490	        2645	       6240	  0.39184	1.3e-007	       244
+   3	CEBPG_HUMAN.H11MO.0.B CEBPG_HUMAN.H11MO.0.B	4.2e0000	   9.9e-003	          -4.61	         0.0	       87	        489	         677	       3307	  0.17791	4.1e-005	       244
+   3	CLOCK_HUMAN.H11MO.0.C CLOCK_HUMAN.H11MO.0.C	9.8e-005	   2.3e-007	         -15.27	         0.0	      275	        487	        3897	       6477	  0.56468	9.6e-010	       243
+   3	CREB1_HUMAN.H11MO.0.A CREB1_HUMAN.H11MO.0.A	8.1e-015	   1.9e-017	         -38.49	         0.0	      134	        490	        1617	       4863	  0.27347	7.9e-020	       244
+   3	CREM_HUMAN.H11MO.0.C CREM_HUMAN.H11MO.0.C	1.0e0000	   2.4e-003	          -6.03	         0.0	      172	        490	        1447	       3763	  0.35102	9.8e-006	       244
+   3	CTCFL_HUMAN.H11MO.0.A CTCFL_HUMAN.H11MO.0.A	1.1e-061	   2.7e-064	        -146.39	         0.0	      154	        484	        1698	       3746	  0.31818	1.1e-066	       241
+   3	CTCF_HUMAN.H11MO.0.A CTCF_HUMAN.H11MO.0.A	3.8e-061	   9.0e-064	        -145.17	         0.0	      176	        482	        1582	       3056	  0.36515	3.7e-066	       240
+   3	E2F1_HUMAN.H11MO.0.A E2F1_HUMAN.H11MO.0.A	3.7e-008	   8.9e-011	         -23.14	         0.0	      209	        487	        2518	       5264	  0.42916	3.7e-013	       243
+   3	E2F2_HUMAN.H11MO.0.B E2F2_HUMAN.H11MO.0.B	1.1e-004	   2.6e-007	         -15.14	         0.0	      227	        491	        1560	       3018	  0.46232	1.1e-009	       245
+   3	E2F4_HUMAN.H11MO.0.A E2F4_HUMAN.H11MO.0.A	3.3e-007	   7.9e-010	         -20.95	         0.0	      212	        488	        2471	       5124	  0.43443	3.3e-012	       243
+   3	E2F6_HUMAN.H11MO.0.A E2F6_HUMAN.H11MO.0.A	7.4e0000	   1.8e-002	          -4.04	         0.0	      236	        488	        3126	       6155	  0.48361	7.3e-005	       243
+   3	E2F7_HUMAN.H11MO.0.B E2F7_HUMAN.H11MO.0.B	7.0e-006	   1.7e-008	         -17.91	         0.0	      104	        488	        1550	       6274	  0.21311	6.8e-011	       243
+   3	EGR1_HUMAN.H11MO.0.A EGR1_HUMAN.H11MO.0.A	3.8e-002	   9.0e-005	          -9.32	         0.0	      120	        484	        1603	       5800	  0.24793	3.7e-007	       241
+   3	EHF_HUMAN.H11MO.0.B EHF_HUMAN.H11MO.0.B	1.1e-103	   2.5e-106	        -243.15	         0.0	      160	        486	        2317	       4787	  0.32922	1.0e-108	       242
+   3	ELF1_HUMAN.H11MO.0.A ELF1_HUMAN.H11MO.0.A	1.4e-114	   3.4e-117	        -268.18	         0.0	      177	        487	        2823	       5448	  0.36345	1.4e-119	       243
+   3	ELF2_HUMAN.H11MO.0.C ELF2_HUMAN.H11MO.0.C	7.1e-116	   1.7e-118	        -271.18	         0.0	      198	        488	        3318	       5967	  0.40574	6.9e-121	       243
+   3	ELF3_HUMAN.H11MO.0.A ELF3_HUMAN.H11MO.0.A	5.1e-083	   1.2e-085	        -195.52	         0.0	      159	        487	        2562	       5645	  0.32649	5.0e-088	       243
+   3	ELF5_HUMAN.H11MO.0.A ELF5_HUMAN.H11MO.0.A	5.9e-079	   1.4e-081	        -186.18	         0.0	      122	        486	        2173	       5960	  0.25103	5.7e-084	       242
+   3	ELK1_HUMAN.H11MO.0.B ELK1_HUMAN.H11MO.0.B	4.7e-122	   1.1e-124	        -285.40	         0.0	      182	        490	        2712	       5043	  0.37143	4.6e-127	       244
+   3	ELK4_HUMAN.H11MO.0.A ELK4_HUMAN.H11MO.0.A	8.6e-100	   2.1e-102	        -234.14	         0.0	      183	        489	        2537	       4796	  0.37423	8.4e-105	       244
+   3	EPAS1_HUMAN.H11MO.0.B EPAS1_HUMAN.H11MO.0.B	1.1e-002	   2.6e-005	         -10.57	         0.0	      174	        492	        1971	       5068	  0.35366	1.1e-007	       245
+   3	ERG_HUMAN.H11MO.0.A ERG_HUMAN.H11MO.0.A	9.1e-104	   2.2e-106	        -243.30	         0.0	      148	        488	        2736	       6276	  0.30328	8.9e-109	       243
+   3	ETS1_HUMAN.H11MO.0.A ETS1_HUMAN.H11MO.0.A	1.2e-118	   2.9e-121	        -277.54	         0.0	      156	        488	        2788	       5973	  0.31967	1.2e-123	       243
+   3	ETS2_HUMAN.H11MO.0.B ETS2_HUMAN.H11MO.0.B	3.5e-015	   8.4e-018	         -39.32	         0.0	      176	        488	        2733	       6580	  0.36066	3.4e-020	       243
+   3	ETV1_HUMAN.H11MO.0.A ETV1_HUMAN.H11MO.0.A	3.6e-118	   8.6e-121	        -276.47	         0.0	      198	        490	        3063	       5441	  0.40408	3.5e-123	       244
+   3	ETV2_HUMAN.H11MO.0.B ETV2_HUMAN.H11MO.0.B	4.4e-095	   1.1e-097	        -223.30	         0.0	      143	        485	        2242	       5161	  0.29485	4.4e-100	       242
+   3	ETV4_HUMAN.H11MO.0.B ETV4_HUMAN.H11MO.0.B	2.9e-061	   6.8e-064	        -145.45	         0.0	      148	        490	        2640	       6568	  0.30204	2.8e-066	       244
+   3	ETV5_HUMAN.H11MO.0.C ETV5_HUMAN.H11MO.0.C	2.9e-046	   7.0e-049	        -110.88	         0.0	      125	        487	        2239	       6582	  0.25667	2.9e-051	       243
+   3	FEV_HUMAN.H11MO.0.B FEV_HUMAN.H11MO.0.B	1.3e-049	   3.1e-052	        -118.59	         0.0	      229	        491	        3698	       6579	  0.46640	1.3e-054	       245
+   3	FLI1_HUMAN.H11MO.0.A FLI1_HUMAN.H11MO.0.A	6.5e-035	   1.5e-037	         -84.77	         0.0	      115	        483	        1906	       6106	  0.23810	6.4e-040	       241
+   3	FOSB_HUMAN.H11MO.0.A FOSB_HUMAN.H11MO.0.A	7.8e-005	   1.8e-007	         -15.51	         0.0	       98	        492	        1320	       5694	  0.19919	7.5e-010	       245
+   3	FOSL1_HUMAN.H11MO.0.A FOSL1_HUMAN.H11MO.0.A	1.5e-031	   3.5e-034	         -77.05	         0.0	      175	        489	        1318	       2776	  0.35787	1.4e-036	       244
+   3	FOSL2_HUMAN.H11MO.0.A FOSL2_HUMAN.H11MO.0.A	8.1e-022	   1.9e-024	         -54.61	         0.0	      175	        489	        1324	       2915	  0.35787	7.9e-027	       244
+   3	FOS_HUMAN.H11MO.0.A FOS_HUMAN.H11MO.0.A	1.4e-007	   3.3e-010	         -21.84	         0.0	      136	        492	        1687	       5266	  0.27642	1.3e-012	       245
+   3	FOXI1_HUMAN.H11MO.0.B FOXI1_HUMAN.H11MO.0.B	1.3e-003	   3.2e-006	         -12.66	         0.0	      259	        489	         607	        982	  0.52965	1.3e-008	       244
+   3	FOXO1_HUMAN.H11MO.0.A FOXO1_HUMAN.H11MO.0.A	2.9e-003	   6.8e-006	         -11.90	         0.0	       97	        489	        1461	       6472	  0.19836	2.8e-008	       244
+   3	GABPA_HUMAN.H11MO.0.A GABPA_HUMAN.H11MO.0.A	2.5e-130	   5.9e-133	        -304.47	         0.0	      159	        487	        2591	       5273	  0.32649	2.4e-135	       243
+   3	GATA1_HUMAN.H11MO.0.A GATA1_HUMAN.H11MO.0.A	4.3e-006	   1.0e-008	         -18.39	         0.0	       94	        482	        1122	       4814	  0.19502	4.3e-011	       240
+   3	GATA2_HUMAN.H11MO.0.A GATA2_HUMAN.H11MO.0.A	2.9e-003	   7.0e-006	         -11.88	         0.0	      100	        482	        1145	       4769	  0.20747	2.9e-008	       240
+   3	GATA4_HUMAN.H11MO.0.A GATA4_HUMAN.H11MO.0.A	2.7e0000	   6.4e-003	          -5.04	         0.0	       89	        491	        1116	       5505	  0.18126	2.6e-005	       245
+   3	GATA6_HUMAN.H11MO.0.A GATA6_HUMAN.H11MO.0.A	3.4e-003	   8.1e-006	         -11.73	         0.0	       98	        488	         991	       4219	  0.20082	3.3e-008	       243
+   3	GCR_HUMAN.H11MO.0.A GCR_HUMAN.H11MO.0.A	2.4e0000	   5.8e-003	          -5.15	         0.0	      450	        486	        4985	       5302	  0.92593	2.4e-005	       242
+   3	GLI3_HUMAN.H11MO.0.B GLI3_HUMAN.H11MO.0.B	2.4e-001	   5.8e-004	          -7.45	         0.0	      208	        490	        1589	       3428	  0.42449	2.4e-006	       244
+   3	HEN1_HUMAN.H11MO.0.C HEN1_HUMAN.H11MO.0.C	2.3e-002	   5.4e-005	          -9.83	         0.0	      191	        481	        1014	       2254	  0.39709	2.2e-007	       240
+   3	HIC1_HUMAN.H11MO.0.C HIC1_HUMAN.H11MO.0.C	2.7e0000	   6.4e-003	          -5.06	         0.0	      220	        492	        2067	       4324	  0.44715	2.6e-005	       245
+   3	HIF1A_HUMAN.H11MO.0.C HIF1A_HUMAN.H11MO.0.C	1.1e-012	   2.5e-015	         -33.61	         0.0	      141	        493	        2047	       6093	  0.28600	1.0e-017	       246
+   3	HTF4_HUMAN.H11MO.0.A HTF4_HUMAN.H11MO.0.A	3.7e-003	   8.7e-006	         -11.65	         0.0	      225	        491	        3107	       6312	  0.45825	3.6e-008	       245
+   3	IRF2_HUMAN.H11MO.0.A IRF2_HUMAN.H11MO.0.A	8.0e-001	   1.9e-003	          -6.27	         0.0	      139	        481	        1157	       3592	  0.28898	7.9e-006	       240
+   3	IRF4_HUMAN.H11MO.0.A IRF4_HUMAN.H11MO.0.A	1.0e-016	   2.4e-019	         -42.86	         0.0	      109	        483	        1477	       5235	  0.22567	1.0e-021	       241
+   3	IRF8_HUMAN.H11MO.0.B IRF8_HUMAN.H11MO.0.B	9.2e-008	   2.2e-010	         -22.24	         0.0	       89	        481	        1082	       4792	  0.18503	9.1e-013	       240
+   3	ITF2_HUMAN.H11MO.0.C ITF2_HUMAN.H11MO.0.C	1.2e-007	   2.8e-010	         -22.00	         0.0	      171	        491	        2503	       6411	  0.34827	1.1e-012	       245
+   3	JUNB_HUMAN.H11MO.0.A JUNB_HUMAN.H11MO.0.A	3.1e-013	   7.3e-016	         -34.86	         0.0	      236	        490	        2662	       4898	  0.48163	3.0e-018	       244
+   3	JUND_HUMAN.H11MO.0.A JUND_HUMAN.H11MO.0.A	2.6e-011	   6.1e-014	         -30.42	         0.0	      136	        490	        1492	       4480	  0.27755	2.5e-016	       244
+   3	JUN_HUMAN.H11MO.0.A JUN_HUMAN.H11MO.0.A	3.5e-013	   8.2e-016	         -34.74	         0.0	      214	        490	        2121	       4216	  0.43673	3.4e-018	       244
+   3	KLF12_HUMAN.H11MO.0.C KLF12_HUMAN.H11MO.0.C	1.5e-010	   3.5e-013	         -28.68	         0.0	      216	        490	        2117	       4222	  0.44082	1.4e-015	       244
+   3	KLF1_HUMAN.H11MO.0.A KLF1_HUMAN.H11MO.0.A	2.9e-006	   6.8e-009	         -18.80	         0.0	      215	        487	        2216	       4522	  0.44148	2.8e-011	       243
+   3	KLF3_HUMAN.H11MO.0.B KLF3_HUMAN.H11MO.0.B	4.8e-006	   1.1e-008	         -18.30	         0.0	      216	        482	        2321	       4684	  0.44813	4.7e-011	       240
+   3	KLF4_HUMAN.H11MO.0.A KLF4_HUMAN.H11MO.0.A	9.5e-014	   2.3e-016	         -36.03	         0.0	      241	        491	        2593	       4671	  0.49084	9.2e-019	       245
+   3	KLF5_HUMAN.H11MO.0.A KLF5_HUMAN.H11MO.0.A	9.2e-003	   2.2e-005	         -10.73	         0.0	      215	        487	        2682	       5632	  0.44148	9.0e-008	       243
+   3	KLF8_HUMAN.H11MO.0.C KLF8_HUMAN.H11MO.0.C	7.7e-008	   1.8e-010	         -22.43	         0.0	      224	        492	        2385	       4705	  0.45528	7.4e-013	       245
+   3	KLF9_HUMAN.H11MO.0.C KLF9_HUMAN.H11MO.0.C	2.4e-012	   5.6e-015	         -32.81	         0.0	      226	        486	        1661	       3070	  0.46502	2.3e-017	       242
+   3	LYL1_HUMAN.H11MO.0.A LYL1_HUMAN.H11MO.0.A	2.6e-014	   6.1e-017	         -37.34	         0.0	      213	        487	        3246	       6596	  0.43737	2.5e-019	       243
+   3	MAFB_HUMAN.H11MO.0.B MAFB_HUMAN.H11MO.0.B	8.3e-005	   2.0e-007	         -15.44	         0.0	      298	        490	        4183	       6489	  0.60816	8.1e-010	       244
+   3	MAFG_HUMAN.H11MO.0.A MAFG_HUMAN.H11MO.0.A	3.4e-003	   8.0e-006	         -11.74	         0.0	      247	        483	         618	       1038	  0.51139	3.3e-008	       241
+   3	MAFK_HUMAN.H11MO.0.A MAFK_HUMAN.H11MO.0.A	2.8e-006	   6.6e-009	         -18.84	         0.0	      247	        483	        1286	       2213	  0.51139	2.7e-011	       241
+   3	MAX_HUMAN.H11MO.0.A MAX_HUMAN.H11MO.0.A	2.7e-008	   6.3e-011	         -23.49	         0.0	      133	        491	        1693	       5365	  0.27088	2.6e-013	       245
+   3	MECP2_HUMAN.H11MO.0.C MECP2_HUMAN.H11MO.0.C	3.1e-001	   7.4e-004	          -7.20	         0.0	      150	        494	         852	       2462	  0.30364	3.0e-006	       246
+   3	MEIS2_HUMAN.H11MO.0.B MEIS2_HUMAN.H11MO.0.B	2.9e0000	   6.9e-003	          -4.97	         0.0	      150	        488	         602	       1703	  0.30738	2.9e-005	       243
+   3	MITF_HUMAN.H11MO.0.A MITF_HUMAN.H11MO.0.A	2.2e-006	   5.3e-009	         -19.06	         0.0	      189	        491	        1445	       3271	  0.38493	2.2e-011	       245
+   3	MXI1_HUMAN.H11MO.0.A MXI1_HUMAN.H11MO.0.A	1.1e-007	   2.7e-010	         -22.04	         0.0	      156	        486	        1909	       5201	  0.32099	1.1e-012	       242
+   3	MYB_HUMAN.H11MO.0.A MYB_HUMAN.H11MO.0.A	4.7e-008	   1.1e-010	         -22.91	         0.0	      199	        489	        2760	       6104	  0.40695	4.6e-013	       244
+   3	MYCN_HUMAN.H11MO.0.A MYCN_HUMAN.H11MO.0.A	7.4e-016	   1.8e-018	         -40.88	         0.0	      181	        489	        1967	       4491	  0.37014	7.2e-021	       244
+   3	MYC_HUMAN.H11MO.0.A MYC_HUMAN.H11MO.0.A	9.1e-012	   2.2e-014	         -31.46	         0.0	      164	        490	        1789	       4549	  0.33469	8.9e-017	       244
+   3	MYF6_HUMAN.H11MO.0.C MYF6_HUMAN.H11MO.0.C	4.7e0000	   1.1e-002	          -4.50	         0.0	       64	        494	         566	       3734	  0.12955	4.5e-005	       246
+   3	MYOD1_HUMAN.H11MO.0.A MYOD1_HUMAN.H11MO.0.A	6.4e-011	   1.5e-013	         -29.51	         0.0	      176	        486	        1935	       4615	  0.36214	6.3e-016	       242
+   3	MYOG_HUMAN.H11MO.0.B MYOG_HUMAN.H11MO.0.B	1.6e-009	   3.9e-012	         -26.28	         0.0	      170	        488	        1836	       4561	  0.34836	1.6e-014	       243
+   3	MZF1_HUMAN.H11MO.0.B MZF1_HUMAN.H11MO.0.B	2.6e0000	   6.1e-003	          -5.10	         0.0	      148	        488	        2066	       6320	  0.30328	2.5e-005	       243
+   3	NDF1_HUMAN.H11MO.0.A NDF1_HUMAN.H11MO.0.A	1.9e-012	   4.5e-015	         -33.04	         0.0	      197	        491	        2034	       4383	  0.40122	1.8e-017	       245
+   3	NDF2_HUMAN.H11MO.0.B NDF2_HUMAN.H11MO.0.B	3.8e-014	   9.1e-017	         -36.94	         0.0	      212	        492	        2761	       5639	  0.43089	3.7e-019	       245
+   3	NF2L1_HUMAN.H11MO.0.C NF2L1_HUMAN.H11MO.0.C	3.7e-009	   8.8e-012	         -25.45	         0.0	      222	        494	        3141	       6327	  0.44939	3.6e-014	       246
+   3	NF2L2_HUMAN.H11MO.0.A NF2L2_HUMAN.H11MO.0.A	1.5e-029	   3.5e-032	         -72.42	         0.0	      181	        487	        1153	       2322	  0.37166	1.5e-034	       243
+   3	NFE2_HUMAN.H11MO.0.A NFE2_HUMAN.H11MO.0.A	8.8e-019	   2.1e-021	         -47.62	         0.0	      210	        488	        2269	       4497	  0.43033	8.6e-024	       243
+   3	NFIA_HUMAN.H11MO.0.C NFIA_HUMAN.H11MO.0.C	3.6e-004	   8.6e-007	         -13.97	         0.0	      218	        486	        3012	       6206	  0.44856	3.6e-009	       242
+   3	NFIC_HUMAN.H11MO.0.A NFIC_HUMAN.H11MO.0.A	2.7e0000	   6.5e-003	          -5.04	         0.0	      450	        484	        5608	       5948	  0.92975	2.7e-005	       241
+   3	NFYA_HUMAN.H11MO.0.A NFYA_HUMAN.H11MO.0.A	4.2e-002	   9.9e-005	          -9.22	         0.0	      297	        487	        2184	       3354	  0.60986	4.1e-007	       243
+   3	NFYB_HUMAN.H11MO.0.A NFYB_HUMAN.H11MO.0.A	3.2e-005	   7.7e-008	         -16.38	         0.0	      238	        488	        1580	       2897	  0.48770	3.2e-010	       243
+   3	NFYC_HUMAN.H11MO.0.A NFYC_HUMAN.H11MO.0.A	9.3e-003	   2.2e-005	         -10.72	         0.0	      297	        487	        3536	       5489	  0.60986	9.1e-008	       243
+   3	NRF1_HUMAN.H11MO.0.A NRF1_HUMAN.H11MO.0.A	1.1e-008	   2.7e-011	         -24.34	         0.0	      200	        484	         718	       1406	  0.41322	1.1e-013	       241
+   3	OLIG2_HUMAN.H11MO.0.B OLIG2_HUMAN.H11MO.0.B	1.4e-010	   3.3e-013	         -28.73	         0.0	      183	        483	        2728	       6384	  0.37888	1.4e-015	       241
+   3	OSR2_HUMAN.H11MO.0.C OSR2_HUMAN.H11MO.0.C	8.1e-007	   1.9e-009	         -20.07	         0.0	      231	        485	        3162	       6086	  0.47629	7.9e-012	       242
+   3	PATZ1_HUMAN.H11MO.0.C PATZ1_HUMAN.H11MO.0.C	2.8e0000	   6.8e-003	          -5.00	         0.0	      203	        479	        2553	       5669	  0.42380	2.8e-005	       239
+   3	PBX1_HUMAN.H11MO.0.A PBX1_HUMAN.H11MO.0.A	5.6e-003	   1.3e-005	         -11.22	         0.0	      229	        491	        3191	       6386	  0.46640	5.5e-008	       245
+   3	PBX3_HUMAN.H11MO.0.A PBX3_HUMAN.H11MO.0.A	3.3e-005	   7.9e-008	         -16.35	         0.0	      314	        490	        4259	       6282	  0.64082	3.2e-010	       244
+   3	PEBB_HUMAN.H11MO.0.C PEBB_HUMAN.H11MO.0.C	1.6e-030	   3.7e-033	         -74.67	         0.0	      172	        490	        2619	       6123	  0.35102	1.5e-035	       244
+   3	PKNX1_HUMAN.H11MO.0.B PKNX1_HUMAN.H11MO.0.B	2.8e-006	   6.7e-009	         -18.82	         0.0	      232	        490	        3074	       5957	  0.47347	2.8e-011	       244
+   3	PTF1A_HUMAN.H11MO.0.B PTF1A_HUMAN.H11MO.0.B	1.1e-012	   2.5e-015	         -33.62	         0.0	      143	        483	        2069	       5960	  0.29607	1.0e-017	       241
+   3	REL_HUMAN.H11MO.0.B REL_HUMAN.H11MO.0.B	9.9e-003	   2.3e-005	         -10.66	         0.0	       74	        486	        1087	       6153	  0.15226	9.7e-008	       242
+   3	RFX1_HUMAN.H11MO.0.B RFX1_HUMAN.H11MO.0.B	8.2e-009	   1.9e-011	         -24.66	         0.0	      227	        479	        1808	       3363	  0.47390	8.2e-014	       239
+   3	RFX2_HUMAN.H11MO.0.A RFX2_HUMAN.H11MO.0.A	7.9e-002	   1.9e-004	          -8.58	         0.0	      197	        483	         685	       1456	  0.40787	7.8e-007	       241
+   3	RFX3_HUMAN.H11MO.0.B RFX3_HUMAN.H11MO.0.B	2.6e-004	   6.1e-007	         -14.31	         0.0	      223	        487	         486	        872	  0.45791	2.5e-009	       243
+   3	RFX5_HUMAN.H11MO.0.A RFX5_HUMAN.H11MO.0.A	3.1e-007	   7.4e-010	         -21.03	         0.0	      199	        481	        2563	       5579	  0.41372	3.1e-012	       240
+   3	RUNX1_HUMAN.H11MO.0.A RUNX1_HUMAN.H11MO.0.A	5.0e-036	   1.2e-038	         -87.33	         0.0	      146	        490	        2161	       5669	  0.29796	4.9e-041	       244
+   3	RUNX2_HUMAN.H11MO.0.A RUNX2_HUMAN.H11MO.0.A	6.0e-018	   1.4e-020	         -45.70	         0.0	      155	        487	        2308	       6112	  0.31828	5.8e-023	       243
+   3	RUNX3_HUMAN.H11MO.0.A RUNX3_HUMAN.H11MO.0.A	9.8e-041	   2.3e-043	         -98.17	         0.0	      147	        491	        2159	       5557	  0.29939	9.5e-046	       245
+   3	SMAD2_HUMAN.H11MO.0.A SMAD2_HUMAN.H11MO.0.A	5.0e0000	   1.2e-002	          -4.44	         0.0	      177	        489	        2470	       6406	  0.36196	4.9e-005	       244
+   3	SMAD3_HUMAN.H11MO.0.B SMAD3_HUMAN.H11MO.0.B	1.6e-003	   3.9e-006	         -12.45	         0.0	      255	        489	        3662	       6591	  0.52147	1.6e-008	       244
+   3	SMAD4_HUMAN.H11MO.0.B SMAD4_HUMAN.H11MO.0.B	5.4e-001	   1.3e-003	          -6.65	         0.0	      212	        488	        2800	       6052	  0.43443	5.3e-006	       243
+   3	SP1_HUMAN.H11MO.0.A SP1_HUMAN.H11MO.0.A	2.5e-008	   6.0e-011	         -23.54	         0.0	      209	        479	        1326	       2615	  0.43633	2.5e-013	       239
+   3	SP2_HUMAN.H11MO.0.A SP2_HUMAN.H11MO.0.A	5.9e-003	   1.4e-005	         -11.17	         0.0	      221	        479	        2244	       4479	  0.46138	5.9e-008	       239
+   3	SP3_HUMAN.H11MO.0.B SP3_HUMAN.H11MO.0.B	2.0e-005	   4.8e-008	         -16.86	         0.0	      215	        481	        2529	       5156	  0.44699	2.0e-010	       240
+   3	SP4_HUMAN.H11MO.0.A SP4_HUMAN.H11MO.0.A	4.9e-003	   1.2e-005	         -11.36	         0.0	      215	        481	        2787	       5781	  0.44699	4.8e-008	       240
+   3	SPI1_HUMAN.H11MO.0.A SPI1_HUMAN.H11MO.0.A	1.2e-067	   2.9e-070	        -160.13	         0.0	      156	        484	        2286	       5167	  0.32231	1.2e-072	       241
+   3	SPIB_HUMAN.H11MO.0.A SPIB_HUMAN.H11MO.0.A	1.3e-065	   3.2e-068	        -155.41	         0.0	      196	        484	        2230	       4112	  0.40496	1.3e-070	       241
+   3	SRBP1_HUMAN.H11MO.0.A SRBP1_HUMAN.H11MO.0.A	2.0e0000	   4.7e-003	          -5.35	         0.0	      198	        490	        2700	       6284	  0.40408	1.9e-005	       244
+   3	STAT6_HUMAN.H11MO.0.B STAT6_HUMAN.H11MO.0.B	2.7e0000	   6.4e-003	          -5.05	         0.0	       52	        490	         749	       6120	  0.10612	2.6e-005	       244
+   3	TAF1_HUMAN.H11MO.0.A TAF1_HUMAN.H11MO.0.A	1.1e-014	   2.6e-017	         -38.19	         0.0	      123	        485	        1908	       6274	  0.25361	1.1e-019	       242
+   3	TAL1_HUMAN.H11MO.0.A TAL1_HUMAN.H11MO.0.A	9.7e-011	   2.3e-013	         -29.10	         0.0	       94	        482	         939	       3787	  0.19502	9.6e-016	       240
+   3	TBX21_HUMAN.H11MO.0.A TBX21_HUMAN.H11MO.0.A	1.9e-003	   4.5e-006	         -12.32	         0.0	      166	        488	        2454	       6586	  0.34016	1.8e-008	       243
+   3	TFAP4_HUMAN.H11MO.0.A TFAP4_HUMAN.H11MO.0.A	5.1e-006	   1.2e-008	         -18.22	         0.0	      197	        491	        1897	       4210	  0.40122	5.0e-011	       245
+   3	TFDP1_HUMAN.H11MO.0.C TFDP1_HUMAN.H11MO.0.C	9.7e-007	   2.3e-009	         -19.89	         0.0	      209	        487	        2772	       5863	  0.42916	9.4e-012	       243
+   3	TFE2_HUMAN.H11MO.0.A TFE2_HUMAN.H11MO.0.A	3.6e-008	   8.6e-011	         -23.18	         0.0	       62	        490	         802	       4955	  0.12653	3.5e-013	       244
+   3	TFE3_HUMAN.H11MO.0.B TFE3_HUMAN.H11MO.0.B	1.9e0000	   4.4e-003	          -5.42	         0.0	       95	        491	         746	       3354	  0.19348	1.8e-005	       245
+   3	TFEB_HUMAN.H11MO.0.C TFEB_HUMAN.H11MO.0.C	1.5e-002	   3.6e-005	         -10.22	         0.0	      264	        492	         162	        230	  0.53659	1.5e-007	       245
+   3	TGIF1_HUMAN.H11MO.0.A TGIF1_HUMAN.H11MO.0.A	5.1e-003	   1.2e-005	         -11.31	         0.0	      212	        494	        3031	       6562	  0.42915	5.0e-008	       246
+   3	THAP1_HUMAN.H11MO.0.C THAP1_HUMAN.H11MO.0.C	2.3e0000	   5.4e-003	          -5.22	         0.0	      101	        479	        1037	       4384	  0.21086	2.3e-005	       239
+   3	USF1_HUMAN.H11MO.0.A USF1_HUMAN.H11MO.0.A	1.9e-007	   4.6e-010	         -21.50	         0.0	      203	        489	         863	       1731	  0.41513	1.9e-012	       244
+   3	USF2_HUMAN.H11MO.0.A USF2_HUMAN.H11MO.0.A	5.9e-006	   1.4e-008	         -18.09	         0.0	      198	        482	         905	       1865	  0.41079	5.8e-011	       240
+   3	WT1_HUMAN.H11MO.0.C WT1_HUMAN.H11MO.0.C	9.6e-001	   2.3e-003	          -6.08	         0.0	      199	        481	        2157	       4857	  0.41372	9.5e-006	       240
+   3	ZBT14_HUMAN.H11MO.0.C ZBT14_HUMAN.H11MO.0.C	9.2e-002	   2.2e-004	          -8.42	         0.0	      250	        492	        1370	       2462	  0.50813	9.0e-007	       245
+   3	ZBT18_HUMAN.H11MO.0.C ZBT18_HUMAN.H11MO.0.C	4.5e-005	   1.1e-007	         -16.06	         0.0	      100	        490	        1426	       6029	  0.20408	4.4e-010	       244
+   3	ZIC3_HUMAN.H11MO.0.B ZIC3_HUMAN.H11MO.0.B	9.0e-006	   2.1e-008	         -17.66	         0.0	      164	        486	        1940	       5103	  0.33745	8.9e-011	       242
+   3	ZN134_HUMAN.H11MO.0.C ZN134_HUMAN.H11MO.0.C	1.0e0000	   2.4e-003	          -6.04	         0.0	      191	        479	        1650	       3812	  0.39875	1.0e-005	       239
+   3	ZN257_HUMAN.H11MO.0.C ZN257_HUMAN.H11MO.0.C	5.7e0000	   1.3e-002	          -4.31	         0.0	      171	        489	        2055	       5482	  0.34969	5.5e-005	       244
+   3	ZN322_HUMAN.H11MO.0.B ZN322_HUMAN.H11MO.0.B	3.0e-003	   7.1e-006	         -11.86	         0.0	      327	        481	        3486	       4870	  0.67983	3.0e-008	       240
+   3	ZN335_HUMAN.H11MO.0.A ZN335_HUMAN.H11MO.0.A	4.7e-006	   1.1e-008	         -18.31	         0.0	      161	        479	        1839	       4831	  0.33612	4.7e-011	       239
+   3	ZN341_HUMAN.H11MO.0.C ZN341_HUMAN.H11MO.0.C	2.1e0000	   4.9e-003	          -5.31	         0.0	       79	        479	        1125	       6085	  0.16493	2.1e-005	       239
+   3	ZN528_HUMAN.H11MO.0.C ZN528_HUMAN.H11MO.0.C	3.2e0000	   7.5e-003	          -4.89	         0.0	      273	        481	        1390	       2282	  0.56757	3.1e-005	       240
+   3	ZN549_HUMAN.H11MO.0.C ZN549_HUMAN.H11MO.0.C	3.8e0000	   9.0e-003	          -4.71	         0.0	      107	        481	         840	       3338	  0.22245	3.8e-005	       240
+   3	ZN554_HUMAN.H11MO.0.C ZN554_HUMAN.H11MO.0.C	6.7e-004	   1.6e-006	         -13.35	         0.0	      233	        481	        3040	       5827	  0.48441	6.6e-009	       240
+   3	ZN563_HUMAN.H11MO.0.C ZN563_HUMAN.H11MO.0.C	5.0e-011	   1.2e-013	         -29.76	         0.0	      206	        480	        2926	       6092	  0.42917	5.0e-016	       239
+   3	ZN708_HUMAN.H11MO.0.C ZN708_HUMAN.H11MO.0.C	4.5e-001	   1.1e-003	          -6.85	         0.0	      241	        481	        1898	       3524	  0.50104	4.4e-006	       240
+   3	ZSC22_HUMAN.H11MO.0.C ZSC22_HUMAN.H11MO.0.C	1.8e-001	   4.2e-004	          -7.78	         0.0	      113	        485	        1396	       5367	  0.23299	1.7e-006	       242
+##
+# Detailed descriptions of columns in this file:
+#
+# db:	The name of the database (file name) that contains the motif.
+# id:	A name for the motif that is unique in the motif database file.
+# alt:	An alternate name of the motif that may be provided 
+#	in the motif database file.
+# E-value:	The expected number motifs that would have least one 
+#	region as enriched for best matches to the motif as the reported region.
+#	The E-value is the p-value multiplied by the number of motifs in the
+#	input database(s).
+# adj_p-value:	The probability that any tested region would be as enriched for
+#	best matches to this motif as the reported region is.
+#	By default the p-value is calculated by using the one-tailed binomial
+#	test on the number of sequences with a match to the motif 
+#	that have their best match in the reported region, corrected for
+#	the number of regions and score thresholds tested.
+#	The test assumes that the probability that the best match in a sequence
+#	falls in the region is the region width divided by the
+#	number of places a motif
+#	can align in the sequence (sequence length minus motif width plus 1).
+#	When CentriMo is run in discriminative mode with a negative
+#	set of sequences, the p-value of a region is calculated
+#	using the Fisher exact test on the 
+#	enrichment of best matches in the positive sequences relative
+#	to the negative sequences, corrected
+#	for the number of regions and score thresholds tested.
+#	The test assumes that the probability that the best match (if any)
+#	falls into a given region
+#	is the same for all positive and negative sequences.
+# log_adj_p-value:	Log of adjusted p-value.
+# bin_location:	Location of the center of the most enriched region.
+# bin_width:	The width (in sequence positions) of the most enriched region.
+#	A best match to the motif is counted as being in the region if the
+#	center of the motif falls in the region.
+# total_width:	The window maximal size which can be reached for this motif:
+#		rounded(sequence length - motif length +1)/2
+# sites_in_bin:	The number of (positive) sequences whose best match to the motif
+#	falls in the reported region.
+#	Note: This number may be less than the number of
+#	(positive) sequences that have a best match in the region.
+#	The reason for this is that a sequence may have many matches that score
+#	equally best.
+#	If n matches have the best score in a sequence, 1/n is added to the
+#	appropriate bin for each match.
+# total_sites:	The number of sequences containing a match to the motif
+#	above the score threshold.
+# p_success:	The probability of falling in the enriched window:
+#		bin width / total width
+# p-value:	The uncorrected p-value before it gets adjusted to the
+#	number of multiple tests to give the adjusted p-value.
+# mult_tests:	This is the number of multiple tests (n) done for this motif.
+#	It was used to correct the original p-value of a region for
+#	multiple tests using the formula:
+#		p' = 1 - (1-p)^n where p is the uncorrected p-value.
+#	The number of multiple tests is the number of regions
+#	considered times the number of score thresholds considered.
+#	It depends on the motif length, sequence length, and the type of
+#	optimizations being done (central enrichment, local enrichment,
+#	score optimization).

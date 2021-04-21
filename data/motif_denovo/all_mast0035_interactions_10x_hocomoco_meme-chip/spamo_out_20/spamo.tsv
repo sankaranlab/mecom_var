@@ -1,0 +1,56 @@
+prim_db	prim_id	prim_alt	sec_db	sec_id	sec_alt	trim_left	trim_right	red_db	red_id	red_alt	E-value	gap	orient	count	total	adj_p-value	p-value
+HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN335_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN770_HUMAN.H11MO.0.C	.	0	1	.	.	.	4.37e-01	14	2	23	3556	9.89e-08	8.90e-07
+HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN335_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN770_HUMAN.H11MO.0.C	.	0	1	.	.	.	4.37e-01	14	6	34	3556	2.79e-07	2.51e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN335_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN770_HUMAN.H11MO.0.C	.	0	1	.	.	.	4.37e-01	14	7	31	3556	4.21e-06	3.79e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN335_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZIC3_HUMAN.H11MO.0.B	.	1	1	.	.	.	6.15e-01	16	8	39	2252	1.31e-07	1.18e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN335_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZIC3_HUMAN.H11MO.0.B	.	1	1	.	.	.	6.15e-01	16	4	23	2252	1.63e-06	1.47e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN335_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN467_HUMAN.H11MO.0.C	.	0	0	.	.	.	9.97e-01	4	1	35	7297	2.27e-07	2.05e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN335_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN341_HUMAN.H11MO.0.C	.	1	0	.	.	.	1.56e+00	7	3	42	9841	3.54e-07	3.19e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN335_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN341_HUMAN.H11MO.0.C	.	1	0	.	.	.	1.56e+00	20	1	40	9841	1.77e-06	1.60e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN335_HUMAN.H11MO.0.A	.	meme.xml	7	MEME	0	0	.	.	.	2.83e+00	36	4	109	16778	6.89e-07	6.20e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN335_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	NFAC1_HUMAN.H11MO.0.B	.	0	2	.	.	.	4.77e+00	16	1	24	4676	1.02e-06	9.20e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN335_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN768_HUMAN.H11MO.0.C	.	0	1	.	.	.	5.29e+00	13	1	8	534	1.19e-06	1.07e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN335_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	LEF1_HUMAN.H11MO.0.A	.	1	1	.	.	.	5.90e+00	47	0	24	4771	1.26e-06	1.13e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN335_HUMAN.H11MO.0.A	.	dreme.xml	DAAATA	DREME	0	0	.	.	.	6.14e+00	127	3	13	1685	1.25e-06	1.13e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN335_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZBT17_HUMAN.H11MO.0.A	.	2	0	.	.	.	6.59e+00	20	1	38	9338	1.46e-06	1.31e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN335_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	VEZF1_HUMAN.H11MO.0.C	.	0	0	.	.	.	7.08e+00	19	1	52	14026	1.63e-06	1.47e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN335_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	VEZF1_HUMAN.H11MO.0.C	.	0	0	.	.	.	7.08e+00	29	1	52	14026	1.63e-06	1.47e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN335_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	VEZF1_HUMAN.H11MO.0.C	.	0	0	.	.	.	7.08e+00	17	1	51	14026	3.18e-06	2.86e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN335_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZBT18_HUMAN.H11MO.0.C	.	0	1	.	.	.	7.68e+00	2	5	24	2462	1.62e-06	1.45e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN335_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZSC31_HUMAN.H11MO.0.C	.	0	0	.	.	.	9.00e+00	80	6	23	2200	2.01e-06	1.81e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN335_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ELF2_HUMAN.H11MO.0.C	.	3	0	.	.	.	9.49e+00	33	4	25	2662	2.00e-06	1.80e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN335_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	0	0	.	.	.	9.92e+00	13	3	29	6437	2.19e-06	1.97e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN335_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	0	0	.	.	.	9.92e+00	13	7	46	6437	3.89e-06	3.50e-05
+##
+# Detailed descriptions of columns in this file:
+#
+# prim_db:	The name of the database (file name) that contains the primary motif.
+# prim_id:	A name for the primary motif that is unique in the motif database file.
+# prim_alt:	An alternate name of the primary motif that may be provided
+#		in the motif database file.
+# sec_db:	The name of the database (file name) that contains the secondary motif.
+# sec_id:	A name for the motif that is unique in the motif database file.
+# sec_alt:	An alternate name of the secondary motif that may be provided
+#		in the motif database file.
+# trim_left:	Number of positions trimmed from left of secondary motif
+# trim_right:	Number of positions trimmed from right of secondary motif
+# If the next three fields are not blank, the motif is redundant with a more significant ('parent') motif.
+# red_db:	The database (file name) that contains the parent motif.
+# red_id:	A name for the parent motif that is unique in the motif database file.
+# red_alt:	An alternate name of the parent motif that may be provided
+#		in the motif database file.
+# E-value:	The expected number motifs that would have least one
+#		spacing as enriched as the best spacing for this secondary.
+#		The E-value is the best spacing p-value multiplied by the number of motifs in the
+#		input database(s).
+# gap:		The distance between the edge of the primary and the (trimmed) secondary motif.
+# orient:	The (combination) of quadrants for which occurrences
+#		of this spacing are combined.
+# count:	The number of occurrences of the secondary motif with the
+#		given spacing and orientation to the primary motif.
+# total:	The total number of occurrences of the secondary motif within the
+#		margins around the best primary motif occurrence.
+# adj_p-value:	The p-value of the gap and orientation, adjusted for
+#		nine combinations of quadrants times the number of gaps tested
+#		(as controlled by the -range switch).
+# p-value:	The p-value of the gap and orientation adjusted only for the number of gaps tested.

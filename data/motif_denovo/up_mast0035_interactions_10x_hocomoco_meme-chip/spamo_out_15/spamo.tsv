@@ -1,0 +1,165 @@
+prim_db	prim_id	prim_alt	sec_db	sec_id	sec_alt	trim_left	trim_right	red_db	red_id	red_alt	E-value	gap	orient	count	total	adj_p-value	p-value
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	meme.xml	5	MEME	0	0	.	.	.	3.70e-24	22	2	22	223	8.98e-31	8.08e-30
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	meme.xml	5	MEME	0	0	.	.	.	3.70e-24	22	6	22	223	2.53e-24	2.28e-23
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	meme.xml	5	MEME	0	0	.	.	.	3.70e-24	22	7	22	223	2.53e-24	2.28e-23
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	meme.xml	5	MEME	0	0	.	.	.	3.70e-24	22	8	22	223	4.78e-18	4.30e-17
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	meme.xml	5	MEME	0	0	.	.	.	3.70e-24	23	2	9	223	1.63e-10	1.47e-09
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	meme.xml	5	MEME	0	0	.	.	.	3.70e-24	57	2	9	223	1.63e-10	1.47e-09
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	meme.xml	5	MEME	0	0	.	.	.	3.70e-24	23	6	9	223	5.63e-08	5.07e-07
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	meme.xml	5	MEME	0	0	.	.	.	3.70e-24	57	6	9	223	5.63e-08	5.07e-07
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	meme.xml	5	MEME	0	0	.	.	.	3.70e-24	23	7	9	223	5.63e-08	5.07e-07
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	meme.xml	5	MEME	0	0	.	.	.	3.70e-24	57	7	9	223	5.63e-08	5.07e-07
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	meme.xml	5	MEME	0	0	.	.	.	3.70e-24	25	2	7	223	5.98e-08	5.39e-07
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	meme.xml	5	MEME	0	0	.	.	.	3.70e-24	21	2	6	223	9.41e-07	8.46e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	meme.xml	5	MEME	0	0	.	.	.	3.70e-24	25	6	7	223	5.20e-06	4.68e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	meme.xml	5	MEME	0	0	.	.	.	3.70e-24	25	7	7	223	5.20e-06	4.68e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN121_HUMAN.H11MO.0.C	.	0	0	HOCOMOCOv11_core_HUMAN_mono_meme_format	5	MEME	3.29e-15	30	2	20	453	7.39e-22	6.65e-21
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN121_HUMAN.H11MO.0.C	.	0	0	HOCOMOCOv11_core_HUMAN_mono_meme_format	5	MEME	3.29e-15	30	6	20	453	3.53e-16	3.17e-15
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN121_HUMAN.H11MO.0.C	.	0	0	HOCOMOCOv11_core_HUMAN_mono_meme_format	5	MEME	3.29e-15	30	7	20	453	3.53e-16	3.17e-15
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN121_HUMAN.H11MO.0.C	.	0	0	HOCOMOCOv11_core_HUMAN_mono_meme_format	5	MEME	3.29e-15	30	8	20	453	7.67e-11	6.90e-10
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN121_HUMAN.H11MO.0.C	.	0	0	HOCOMOCOv11_core_HUMAN_mono_meme_format	5	MEME	3.29e-15	31	2	11	453	2.29e-10	2.07e-09
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN121_HUMAN.H11MO.0.C	.	0	0	HOCOMOCOv11_core_HUMAN_mono_meme_format	5	MEME	3.29e-15	65	2	10	453	3.00e-09	2.70e-08
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN121_HUMAN.H11MO.0.C	.	0	0	HOCOMOCOv11_core_HUMAN_mono_meme_format	5	MEME	3.29e-15	31	6	12	453	3.04e-08	2.73e-07
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN121_HUMAN.H11MO.0.C	.	0	0	HOCOMOCOv11_core_HUMAN_mono_meme_format	5	MEME	3.29e-15	31	7	11	453	2.18e-07	1.96e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN121_HUMAN.H11MO.0.C	.	0	0	HOCOMOCOv11_core_HUMAN_mono_meme_format	5	MEME	3.29e-15	65	7	11	453	2.18e-07	1.96e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN121_HUMAN.H11MO.0.C	.	0	0	HOCOMOCOv11_core_HUMAN_mono_meme_format	5	MEME	3.29e-15	33	2	8	453	3.81e-07	3.43e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN121_HUMAN.H11MO.0.C	.	0	0	HOCOMOCOv11_core_HUMAN_mono_meme_format	5	MEME	3.29e-15	65	6	10	453	1.43e-06	1.29e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN121_HUMAN.H11MO.0.C	.	0	0	HOCOMOCOv11_core_HUMAN_mono_meme_format	5	MEME	3.29e-15	31	8	14	453	1.62e-06	1.45e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN121_HUMAN.H11MO.0.C	.	0	0	HOCOMOCOv11_core_HUMAN_mono_meme_format	5	MEME	3.29e-15	65	8	14	453	1.62e-06	1.45e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN121_HUMAN.H11MO.0.C	.	0	0	HOCOMOCOv11_core_HUMAN_mono_meme_format	5	MEME	3.29e-15	100	0	7	453	3.62e-06	3.26e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN121_HUMAN.H11MO.0.C	.	0	0	HOCOMOCOv11_core_HUMAN_mono_meme_format	5	MEME	3.29e-15	29	2	7	453	3.62e-06	3.26e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	PAX5_HUMAN.H11MO.0.A	.	0	0	HOCOMOCOv11_core_HUMAN_mono_meme_format	5	MEME	2.60e-07	28	2	22	1482	5.88e-14	5.29e-13
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	PAX5_HUMAN.H11MO.0.A	.	0	0	HOCOMOCOv11_core_HUMAN_mono_meme_format	5	MEME	2.60e-07	28	7	25	1482	2.14e-10	1.92e-09
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	PAX5_HUMAN.H11MO.0.A	.	0	0	HOCOMOCOv11_core_HUMAN_mono_meme_format	5	MEME	2.60e-07	28	6	22	1482	1.71e-08	1.54e-07
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	PAX5_HUMAN.H11MO.0.A	.	0	0	HOCOMOCOv11_core_HUMAN_mono_meme_format	5	MEME	2.60e-07	29	2	15	1482	3.78e-08	3.41e-07
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	PAX5_HUMAN.H11MO.0.A	.	0	0	HOCOMOCOv11_core_HUMAN_mono_meme_format	5	MEME	2.60e-07	28	8	30	1482	3.34e-07	3.00e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	PAX5_HUMAN.H11MO.0.A	.	0	0	HOCOMOCOv11_core_HUMAN_mono_meme_format	5	MEME	2.60e-07	29	6	19	1482	9.22e-07	8.30e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	meme.xml	9	MEME	0	0	.	.	.	1.69e-05	32	2	7	60	3.82e-12	3.44e-11
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	meme.xml	9	MEME	0	0	.	.	.	1.69e-05	32	7	8	60	1.14e-11	1.03e-10
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	meme.xml	9	MEME	0	0	.	.	.	1.69e-05	32	6	7	60	4.47e-10	4.02e-09
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	meme.xml	9	MEME	0	0	.	.	.	1.69e-05	32	8	8	60	2.44e-09	2.20e-08
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	meme.xml	7	MEME	0	0	.	.	.	2.73e-05	0	3	8	108	6.17e-12	5.55e-11
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	meme.xml	7	MEME	0	0	.	.	.	2.73e-05	3	3	7	108	2.54e-10	2.29e-09
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	meme.xml	7	MEME	0	0	.	.	.	2.73e-05	0	5	8	108	1.33e-09	1.20e-08
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	meme.xml	7	MEME	0	0	.	.	.	2.73e-05	0	7	8	108	1.33e-09	1.20e-08
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	meme.xml	7	MEME	0	0	.	.	.	2.73e-05	3	5	7	108	2.75e-08	2.47e-07
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	meme.xml	7	MEME	0	0	.	.	.	2.73e-05	3	7	7	108	2.75e-08	2.47e-07
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	meme.xml	7	MEME	0	0	.	.	.	2.73e-05	0	8	8	108	2.42e-07	2.18e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	meme.xml	7	MEME	0	0	.	.	.	2.73e-05	3	8	8	108	2.42e-07	2.18e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	meme.xml	4	MEME	0	0	.	.	.	3.00e-04	20	0	7	85	7.24e-11	6.51e-10
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	meme.xml	4	MEME	0	0	.	.	.	3.00e-04	20	4	7	85	8.05e-09	7.25e-08
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	meme.xml	4	MEME	0	0	.	.	.	3.00e-04	20	5	7	85	8.05e-09	7.25e-08
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	meme.xml	4	MEME	0	0	.	.	.	3.00e-04	20	8	8	85	6.22e-08	5.60e-07
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	MEF2B_HUMAN.H11MO.0.A	.	2	0	.	.	.	1.19e-02	58	3	23	3073	2.52e-09	2.27e-08
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	MEF2B_HUMAN.H11MO.0.A	.	2	0	.	.	.	1.19e-02	58	7	28	3073	1.46e-06	1.31e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	MEF2A_HUMAN.H11MO.0.A	.	1	1	HOCOMOCOv11_core_HUMAN_mono_meme_format	MEF2B_HUMAN.H11MO.0.A	.	2.49e+00	58	3	16	2239	5.25e-07	4.72e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	MEF2A_HUMAN.H11MO.0.A	.	1	1	HOCOMOCOv11_core_HUMAN_mono_meme_format	MEF2B_HUMAN.H11MO.0.A	.	2.49e+00	58	7	22	2239	3.54e-06	3.18e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	meme.xml	3	MEME	0	0	.	.	.	1.69e-02	59	2	24	3323	3.65e-09	3.29e-08
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	meme.xml	3	MEME	0	0	.	.	.	1.69e-02	62	2	24	3323	3.65e-09	3.29e-08
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	meme.xml	3	MEME	0	0	.	.	.	1.69e-02	61	2	23	3323	1.46e-08	1.31e-07
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	meme.xml	3	MEME	0	0	.	.	.	1.69e-02	62	7	34	3323	2.40e-08	2.16e-07
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	meme.xml	3	MEME	0	0	.	.	.	1.69e-02	60	2	22	3323	5.61e-08	5.04e-07
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	meme.xml	3	MEME	0	0	.	.	.	1.69e-02	74	0	20	3323	7.24e-07	6.51e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	meme.xml	3	MEME	0	0	.	.	.	1.69e-02	64	2	20	3323	7.24e-07	6.51e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	meme.xml	3	MEME	0	0	.	.	.	1.69e-02	113	3	20	3323	7.24e-07	6.51e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	meme.xml	3	MEME	0	0	.	.	.	1.69e-02	74	5	29	3323	3.30e-06	2.97e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	FOXJ3_HUMAN.H11MO.0.A	.	1	0	HOCOMOCOv11_core_HUMAN_mono_meme_format	3	MEME	2.68e-01	59	3	15	1637	5.68e-08	5.11e-07
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	SMCA1_HUMAN.H11MO.0.C	.	0	1	HOCOMOCOv11_core_HUMAN_mono_meme_format	3	MEME	7.07e-01	60	2	25	4522	1.49e-07	1.34e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZFP82_HUMAN.H11MO.0.C	.	0	0	HOCOMOCOv11_core_HUMAN_mono_meme_format	3	MEME	8.56e+00	57	3	15	2019	2.00e-06	1.80e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZSC31_HUMAN.H11MO.0.C	.	0	0	.	.	.	6.27e-02	13	3	18	2035	1.39e-08	1.25e-07
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZSC31_HUMAN.H11MO.0.C	.	0	0	.	.	.	6.27e-02	13	5	24	2035	1.85e-07	1.66e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	SMCA5_HUMAN.H11MO.0.C	.	0	0	.	.	.	7.66e-02	16	3	15	1451	1.65e-08	1.49e-07
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	SMCA5_HUMAN.H11MO.0.C	.	0	0	.	.	.	7.66e-02	16	7	19	1451	3.67e-07	3.30e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	SMCA5_HUMAN.H11MO.0.C	.	0	0	.	.	.	7.66e-02	16	5	18	1451	1.34e-06	1.21e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	EVI1_HUMAN.H11MO.0.B	.	1	2	.	.	.	7.66e-02	60	2	10	573	1.63e-08	1.47e-07
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	EVI1_HUMAN.H11MO.0.B	.	1	2	.	.	.	7.66e-02	60	7	11	573	1.22e-06	1.10e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	JUN_HUMAN.H11MO.0.A	.	1	1	.	.	.	9.09e-02	22	1	14	1320	1.88e-08	1.69e-07
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	JUN_HUMAN.H11MO.0.A	.	1	1	.	.	.	9.09e-02	22	4	19	1320	5.02e-08	4.52e-07
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	JUN_HUMAN.H11MO.0.A	.	1	1	.	.	.	9.09e-02	22	6	19	1320	5.02e-08	4.52e-07
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	JUN_HUMAN.H11MO.0.A	.	1	1	.	.	.	9.09e-02	22	8	24	1320	4.14e-06	3.72e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	JUND_HUMAN.H11MO.0.A	.	1	1	HOCOMOCOv11_core_HUMAN_mono_meme_format	JUN_HUMAN.H11MO.0.A	.	4.88e-01	22	1	14	1523	1.01e-07	9.11e-07
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	JUND_HUMAN.H11MO.0.A	.	1	1	HOCOMOCOv11_core_HUMAN_mono_meme_format	JUN_HUMAN.H11MO.0.A	.	4.88e-01	22	4	20	1523	1.03e-07	9.31e-07
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	FOS_HUMAN.H11MO.0.A	.	1	0	HOCOMOCOv11_core_HUMAN_mono_meme_format	JUN_HUMAN.H11MO.0.A	.	2.97e+00	23	1	16	2316	6.13e-07	5.52e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	FOS_HUMAN.H11MO.0.A	.	1	0	HOCOMOCOv11_core_HUMAN_mono_meme_format	JUN_HUMAN.H11MO.0.A	.	2.97e+00	23	6	22	2316	4.25e-06	3.83e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	GFI1_HUMAN.H11MO.0.C	.	0	0	.	.	.	1.05e-01	7	1	16	1758	2.18e-08	1.96e-07
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	GFI1_HUMAN.H11MO.0.C	.	0	0	.	.	.	1.05e-01	7	4	21	1758	2.73e-07	2.46e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	OTX2_HUMAN.H11MO.0.A	.	1	1	HOCOMOCOv11_core_HUMAN_mono_meme_format	GFI1_HUMAN.H11MO.0.C	.	1.63e+00	9	1	14	1692	3.38e-07	3.04e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	MAF_HUMAN.H11MO.0.A	.	2	2	HOCOMOCOv11_core_HUMAN_mono_meme_format	GFI1_HUMAN.H11MO.0.C	.	7.76e+00	3	1	16	2395	1.69e-06	1.52e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	MAZ_HUMAN.H11MO.0.A	.	1	0	.	.	.	2.94e-01	3	2	37	7579	6.65e-08	5.98e-07
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	MAZ_HUMAN.H11MO.0.A	.	1	0	.	.	.	2.94e-01	116	0	34	7579	1.06e-06	9.56e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	Z354A_HUMAN.H11MO.0.C	.	1	0	.	.	.	3.81e-01	103	6	29	2573	8.76e-08	7.88e-07
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	Z354A_HUMAN.H11MO.0.C	.	1	0	.	.	.	3.81e-01	103	2	19	2573	1.62e-07	1.45e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	Z354A_HUMAN.H11MO.0.C	.	1	0	.	.	.	3.81e-01	112	6	27	2573	7.38e-07	6.65e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	SIX1_HUMAN.H11MO.0.A	.	0	1	.	.	.	4.42e-01	38	0	13	1259	9.42e-08	8.47e-07
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	SIX1_HUMAN.H11MO.0.A	.	0	1	.	.	.	4.42e-01	38	4	17	1259	6.57e-07	5.92e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	SIX1_HUMAN.H11MO.0.A	.	0	1	.	.	.	4.42e-01	38	5	16	1259	2.52e-06	2.27e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	SIX2_HUMAN.H11MO.0.A	.	0	0	HOCOMOCOv11_core_HUMAN_mono_meme_format	SIX1_HUMAN.H11MO.0.A	.	4.32e+00	38	0	15	2051	9.25e-07	8.32e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	TFE3_HUMAN.H11MO.0.B	.	0	0	.	.	.	8.97e-01	6	0	11	955	1.87e-07	1.69e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	THA_HUMAN.H11MO.0.C	.	0	1	.	.	.	1.09e+00	0	3	18	2527	2.38e-07	2.14e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	PRRX2_HUMAN.H11MO.0.C	.	1	0	.	.	.	1.13e+00	38	1	11	1003	2.29e-07	2.06e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	PRRX2_HUMAN.H11MO.0.C	.	1	0	.	.	.	1.13e+00	73	8	21	1003	1.23e-06	1.11e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	PRRX2_HUMAN.H11MO.0.C	.	1	0	.	.	.	1.13e+00	73	1	10	1003	1.49e-06	1.34e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	DLX3_HUMAN.H11MO.0.C	.	0	1	HOCOMOCOv11_core_HUMAN_mono_meme_format	PRRX2_HUMAN.H11MO.0.C	.	4.61e+00	36	1	10	933	9.60e-07	8.64e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	DLX3_HUMAN.H11MO.0.C	.	0	1	HOCOMOCOv11_core_HUMAN_mono_meme_format	PRRX2_HUMAN.H11MO.0.C	.	4.61e+00	71	1	10	933	9.60e-07	8.64e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	DLX3_HUMAN.H11MO.0.C	.	0	1	HOCOMOCOv11_core_HUMAN_mono_meme_format	PRRX2_HUMAN.H11MO.0.C	.	4.61e+00	72	3	10	933	9.60e-07	8.64e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZFP28_HUMAN.H11MO.0.C	.	0	0	.	.	.	1.43e+00	115	2	13	1339	3.22e-07	2.90e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZFP28_HUMAN.H11MO.0.C	.	0	0	.	.	.	1.43e+00	51	3	13	1339	3.22e-07	2.90e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN394_HUMAN.H11MO.0.C	.	1	1	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZFP28_HUMAN.H11MO.0.C	.	8.64e+00	119	8	78	6222	1.93e-06	1.74e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ALX1_HUMAN.H11MO.0.B	.	1	0	.	.	.	1.48e+00	81	4	18	1339	3.11e-07	2.80e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ALX1_HUMAN.H11MO.0.B	.	1	0	.	.	.	1.48e+00	6	1	12	1339	8.77e-07	7.90e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	KLF15_HUMAN.H11MO.0.A	.	0	0	.	.	.	1.96e+00	3	2	23	3955	4.37e-07	3.93e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	KLF15_HUMAN.H11MO.0.A	.	0	0	.	.	.	1.96e+00	68	6	33	3955	4.18e-06	3.77e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ATF3_HUMAN.H11MO.0.A	.	0	1	.	.	.	2.32e+00	0	2	13	1497	4.85e-07	4.36e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	SP2_HUMAN.H11MO.0.A	.	0	0	.	.	.	2.58e+00	50	0	39	8959	5.90e-07	5.31e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	IRF1_HUMAN.H11MO.0.A	.	1	1	.	.	.	3.50e+00	57	2	17	2453	7.76e-07	6.98e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	NKX21_HUMAN.H11MO.0.A	.	1	1	.	.	.	4.31e+00	20	3	19	3245	8.91e-07	8.02e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	NKX21_HUMAN.H11MO.0.A	.	1	1	.	.	.	4.31e+00	20	7	28	3245	2.30e-06	2.07e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN250_HUMAN.H11MO.0.C	.	0	0	.	.	.	4.44e+00	38	3	3	21	1.00e-06	9.01e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	NKX61_HUMAN.H11MO.0.B	.	0	1	.	.	.	4.50e+00	104	5	23	2103	9.99e-07	8.99e-06
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	CEBPD_HUMAN.H11MO.0.C	.	0	0	.	.	.	5.64e+00	9	7	22	2081	1.19e-06	1.07e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	CEBPD_HUMAN.H11MO.0.C	.	0	0	.	.	.	5.64e+00	9	2	14	2081	3.83e-06	3.45e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	STAT2_HUMAN.H11MO.0.A	.	1	1	.	.	.	6.05e+00	63	2	18	2853	1.34e-06	1.20e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	STAT2_HUMAN.H11MO.0.A	.	1	1	.	.	.	6.05e+00	56	2	17	2853	4.64e-06	4.17e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	STAT2_HUMAN.H11MO.0.A	.	1	1	.	.	.	6.05e+00	57	2	17	2853	4.64e-06	4.17e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	NRF1_HUMAN.H11MO.0.A	.	0	0	.	.	.	7.59e+00	24	4	14	925	1.68e-06	1.51e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	BC11A_HUMAN.H11MO.0.A	.	1	1	.	.	.	7.99e+00	10	0	28	6068	1.74e-06	1.57e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	BC11A_HUMAN.H11MO.0.A	.	1	1	.	.	.	7.99e+00	65	2	28	6068	1.74e-06	1.57e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	BC11A_HUMAN.H11MO.0.A	.	1	1	.	.	.	7.99e+00	4	0	27	6068	4.48e-06	4.03e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	BC11A_HUMAN.H11MO.0.A	.	1	1	.	.	.	7.99e+00	59	2	27	6068	4.48e-06	4.03e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZSC22_HUMAN.H11MO.0.C	.	1	0	.	.	.	8.41e+00	24	0	14	1888	1.84e-06	1.65e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	NFE2_HUMAN.H11MO.0.A	.	2	0	.	.	.	8.84e+00	34	5	16	1246	1.88e-06	1.69e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	ISL1_HUMAN.H11MO.0.A	.	1	1	.	.	.	8.96e+00	58	7	27	3051	1.85e-06	1.66e-05
+HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	HOCOMOCOv11_core_HUMAN_mono_meme_format	THB_HUMAN.H11MO.0.C	.	0	0	.	.	.	9.99e+00	129	4	17	1346	2.22e-06	2.00e-05
+##
+# Detailed descriptions of columns in this file:
+#
+# prim_db:	The name of the database (file name) that contains the primary motif.
+# prim_id:	A name for the primary motif that is unique in the motif database file.
+# prim_alt:	An alternate name of the primary motif that may be provided
+#		in the motif database file.
+# sec_db:	The name of the database (file name) that contains the secondary motif.
+# sec_id:	A name for the motif that is unique in the motif database file.
+# sec_alt:	An alternate name of the secondary motif that may be provided
+#		in the motif database file.
+# trim_left:	Number of positions trimmed from left of secondary motif
+# trim_right:	Number of positions trimmed from right of secondary motif
+# If the next three fields are not blank, the motif is redundant with a more significant ('parent') motif.
+# red_db:	The database (file name) that contains the parent motif.
+# red_id:	A name for the parent motif that is unique in the motif database file.
+# red_alt:	An alternate name of the parent motif that may be provided
+#		in the motif database file.
+# E-value:	The expected number motifs that would have least one
+#		spacing as enriched as the best spacing for this secondary.
+#		The E-value is the best spacing p-value multiplied by the number of motifs in the
+#		input database(s).
+# gap:		The distance between the edge of the primary and the (trimmed) secondary motif.
+# orient:	The (combination) of quadrants for which occurrences
+#		of this spacing are combined.
+# count:	The number of occurrences of the secondary motif with the
+#		given spacing and orientation to the primary motif.
+# total:	The total number of occurrences of the secondary motif within the
+#		margins around the best primary motif occurrence.
+# adj_p-value:	The p-value of the gap and orientation, adjusted for
+#		nine combinations of quadrants times the number of gaps tested
+#		(as controlled by the -range switch).
+# p-value:	The p-value of the gap and orientation adjusted only for the number of gaps tested.

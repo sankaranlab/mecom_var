@@ -1,0 +1,114 @@
+prim_db	prim_id	prim_alt	sec_db	sec_id	sec_alt	trim_left	trim_right	red_db	red_id	red_alt	E-value	gap	orient	count	total	adj_p-value	p-value
+dreme.xml	AGGAARY	DREME	dreme.xml	BTTCCB	DREME	0	0	.	.	.	2.10e-12	0	1	57	8065	4.26e-19	3.83e-18
+dreme.xml	AGGAARY	DREME	dreme.xml	BTTCCB	DREME	0	0	.	.	.	2.10e-12	0	6	59	8065	1.88e-08	1.69e-07
+dreme.xml	AGGAARY	DREME	dreme.xml	BTTCCB	DREME	0	0	.	.	.	2.10e-12	0	4	58	8065	4.05e-08	3.65e-07
+dreme.xml	AGGAARY	DREME	dreme.xml	BTTCCB	DREME	0	0	.	.	.	2.10e-12	6	3	32	8065	2.46e-06	2.22e-05
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	ETV4_HUMAN.H11MO.0.B	.	2	2	HOCOMOCOv11_core_HUMAN_mono_meme_format	BTTCCB	DREME	7.06e-08	0	0	38	4948	1.44e-14	1.30e-13
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	ETV4_HUMAN.H11MO.0.B	.	2	2	HOCOMOCOv11_core_HUMAN_mono_meme_format	BTTCCB	DREME	7.06e-08	0	4	42	4948	3.15e-08	2.84e-07
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	ETV4_HUMAN.H11MO.0.B	.	2	2	HOCOMOCOv11_core_HUMAN_mono_meme_format	BTTCCB	DREME	7.06e-08	0	5	41	4948	7.87e-08	7.08e-07
+dreme.xml	AGGAARY	DREME	meme.xml	1	MEME	0	1	meme.xml	BTTCCB	DREME	2.07e-06	0	0	35	4665	4.31e-13	3.88e-12
+dreme.xml	AGGAARY	DREME	meme.xml	1	MEME	0	1	meme.xml	BTTCCB	DREME	2.07e-06	0	4	39	4665	1.91e-07	1.72e-06
+dreme.xml	AGGAARY	DREME	meme.xml	1	MEME	0	1	meme.xml	BTTCCB	DREME	2.07e-06	0	5	36	4665	2.48e-06	2.23e-05
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	LEF1_HUMAN.H11MO.0.A	.	1	1	.	.	.	2.56e-07	0	1	49	7929	5.41e-14	4.87e-13
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	LEF1_HUMAN.H11MO.0.A	.	1	1	.	.	.	2.56e-07	0	6	55	7929	7.45e-07	6.71e-06
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	LEF1_HUMAN.H11MO.0.A	.	1	1	.	.	.	2.56e-07	0	4	53	7929	2.84e-06	2.56e-05
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	LEF1_HUMAN.H11MO.0.A	.	1	1	.	.	.	2.56e-07	1	1	32	7929	3.94e-06	3.55e-05
+dreme.xml	AGGAARY	DREME	meme.xml	4	MEME	0	0	.	.	.	6.98e-05	6	0	8	115	1.68e-11	1.51e-10
+dreme.xml	AGGAARY	DREME	meme.xml	4	MEME	0	0	.	.	.	6.98e-05	6	4	8	115	3.54e-09	3.19e-08
+dreme.xml	AGGAARY	DREME	meme.xml	4	MEME	0	0	.	.	.	6.98e-05	6	5	8	115	3.54e-09	3.19e-08
+dreme.xml	AGGAARY	DREME	meme.xml	4	MEME	0	0	.	.	.	6.98e-05	6	8	8	115	6.15e-07	5.53e-06
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	STAT4_HUMAN.H11MO.0.A	.	0	1	.	.	.	1.41e-03	1	1	27	3766	2.93e-10	2.64e-09
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	STAT4_HUMAN.H11MO.0.A	.	0	1	.	.	.	1.41e-03	0	1	21	3766	7.88e-07	7.09e-06
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	STAT4_HUMAN.H11MO.0.A	.	0	1	.	.	.	1.41e-03	1	4	32	3766	1.11e-06	1.00e-05
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	STAT4_HUMAN.H11MO.0.A	.	0	1	.	.	.	1.41e-03	1	6	32	3766	1.11e-06	1.00e-05
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	FOXP1_HUMAN.H11MO.0.A	.	0	0	.	.	.	1.26e-02	109	6	63	8184	2.61e-09	2.35e-08
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	FOXP1_HUMAN.H11MO.0.A	.	0	0	.	.	.	1.26e-02	109	8	92	8184	1.91e-06	1.72e-05
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	FOXP1_HUMAN.H11MO.0.A	.	0	0	.	.	.	1.26e-02	109	2	33	8184	2.03e-06	1.83e-05
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN768_HUMAN.H11MO.0.C	.	0	1	.	.	.	1.13e-01	1	2	11	727	2.52e-08	2.27e-07
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN768_HUMAN.H11MO.0.C	.	0	1	.	.	.	1.13e-01	1	6	12	727	3.36e-06	3.02e-05
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	SP4_HUMAN.H11MO.0.A	.	2	1	.	.	.	1.23e-01	23	2	32	5959	2.69e-08	2.42e-07
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	SP4_HUMAN.H11MO.0.A	.	2	1	.	.	.	1.23e-01	23	6	44	5959	3.20e-06	2.88e-05
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	RORG_HUMAN.H11MO.0.C	.	2	0	.	.	.	1.25e-01	15	1	20	2757	2.61e-08	2.35e-07
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	RORG_HUMAN.H11MO.0.C	.	2	0	.	.	.	1.25e-01	15	6	25	2757	3.51e-06	3.16e-05
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	TF7L1_HUMAN.H11MO.0.B	.	3	1	.	.	.	1.94e-01	0	1	25	4259	4.01e-08	3.61e-07
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	PRDM6_HUMAN.H11MO.0.C	.	1	2	.	.	.	2.41e-01	0	0	34	7113	5.03e-08	4.53e-07
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	BCL6_HUMAN.H11MO.0.A	.	2	0	.	.	.	3.46e-01	0	1	20	2927	7.26e-08	6.54e-07
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	BCL6_HUMAN.H11MO.0.A	.	2	0	.	.	.	3.46e-01	0	6	29	2927	1.89e-07	1.70e-06
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	RUNX3_HUMAN.H11MO.0.A	.	1	0	.	.	.	5.87e-01	18	6	30	3065	1.22e-07	1.09e-06
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	RUNX3_HUMAN.H11MO.0.A	.	1	0	.	.	.	5.87e-01	18	8	46	3065	3.32e-07	2.98e-06
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	RUNX1_HUMAN.H11MO.0.A	.	1	1	HOCOMOCOv11_core_HUMAN_mono_meme_format	RUNX3_HUMAN.H11MO.0.A	.	1.62e+00	18	8	49	3355	3.37e-07	3.03e-06
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	RUNX1_HUMAN.H11MO.0.A	.	1	1	HOCOMOCOv11_core_HUMAN_mono_meme_format	RUNX3_HUMAN.H11MO.0.A	.	1.62e+00	18	6	30	3355	7.01e-07	6.31e-06
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	FOXA3_HUMAN.H11MO.0.B	.	2	0	.	.	.	6.69e-01	136	8	43	2649	1.41e-07	1.27e-06
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	FOXA3_HUMAN.H11MO.0.B	.	2	0	.	.	.	6.69e-01	136	4	25	2649	2.07e-06	1.87e-05
+dreme.xml	AGGAARY	DREME	dreme.xml	AGAWAA	DREME	0	0	.	.	.	8.11e-01	1	0	20	3201	1.65e-07	1.48e-06
+dreme.xml	AGGAARY	DREME	dreme.xml	AGAWAA	DREME	0	0	.	.	.	8.11e-01	35	4	27	3201	3.70e-06	3.33e-05
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	DBP_HUMAN.H11MO.0.B	.	0	2	.	.	.	8.14e-01	0	1	20	3140	1.69e-07	1.52e-06
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	DBP_HUMAN.H11MO.0.B	.	0	2	.	.	.	8.14e-01	3	0	18	3140	2.19e-06	1.97e-05
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	SOX4_HUMAN.H11MO.0.B	.	0	1	.	.	.	1.08e+00	102	8	87	7096	2.28e-07	2.05e-06
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	SOX4_HUMAN.H11MO.0.B	.	0	1	.	.	.	1.08e+00	0	1	30	7096	2.61e-06	2.35e-05
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	SOX4_HUMAN.H11MO.0.B	.	0	1	.	.	.	1.08e+00	102	7	48	7096	4.19e-06	3.77e-05
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	STAT6_HUMAN.H11MO.0.B	.	0	0	.	.	.	1.19e+00	0	0	21	3464	2.50e-07	2.25e-06
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	STAT6_HUMAN.H11MO.0.B	.	0	0	.	.	.	1.19e+00	135	4	30	3464	1.65e-06	1.49e-05
+dreme.xml	AGGAARY	DREME	meme.xml	3	MEME	0	0	.	.	.	1.46e+00	47	3	5	106	3.56e-07	3.21e-06
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	BC11A_HUMAN.H11MO.0.A	.	1	1	.	.	.	1.58e+00	1	0	39	9219	3.42e-07	3.07e-06
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	STAT2_HUMAN.H11MO.0.A	.	1	1	.	.	.	2.31e+00	62	0	23	4053	5.08e-07	4.57e-06
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	STAT2_HUMAN.H11MO.0.A	.	1	1	.	.	.	2.31e+00	97	0	21	4053	4.71e-06	4.24e-05
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN467_HUMAN.H11MO.0.C	.	0	0	.	.	.	2.58e+00	80	2	30	6033	5.89e-07	5.30e-06
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	NFYC_HUMAN.H11MO.0.A	.	2	2	.	.	.	2.72e+00	35	0	15	2010	5.68e-07	5.11e-06
+dreme.xml	AGGAARY	DREME	meme.xml	5	MEME	0	0	.	.	.	3.26e+00	117	5	50	6501	7.39e-07	6.65e-06
+dreme.xml	AGGAARY	DREME	meme.xml	5	MEME	0	0	.	.	.	3.26e+00	129	0	30	6501	2.04e-06	1.84e-05
+dreme.xml	AGGAARY	DREME	meme.xml	5	MEME	0	0	.	.	.	3.26e+00	110	3	30	6501	2.04e-06	1.84e-05
+dreme.xml	AGGAARY	DREME	meme.xml	5	MEME	0	0	.	.	.	3.26e+00	109	5	48	6501	3.03e-06	2.72e-05
+dreme.xml	AGGAARY	DREME	meme.xml	5	MEME	0	0	.	.	.	3.26e+00	110	5	48	6501	3.03e-06	2.72e-05
+dreme.xml	AGGAARY	DREME	meme.xml	5	MEME	0	0	.	.	.	3.26e+00	116	5	48	6501	3.03e-06	2.72e-05
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	Z354A_HUMAN.H11MO.0.C	.	1	0	.	.	.	3.53e+00	76	1	23	3989	8.15e-07	7.33e-06
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	HNF1A_HUMAN.H11MO.0.C	.	0	0	.	.	.	3.81e+00	108	7	26	2591	8.26e-07	7.44e-06
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	ELF2_HUMAN.H11MO.0.C	.	3	0	.	.	.	4.07e+00	24	8	32	1862	8.53e-07	7.68e-06
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	FOSL2_HUMAN.H11MO.0.A	.	2	1	.	.	.	4.33e+00	25	1	11	1137	9.01e-07	8.11e-06
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	HXB13_HUMAN.H11MO.0.A	.	0	1	.	.	.	5.25e+00	1	1	21	3878	1.09e-06	9.84e-06
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	TAL1_HUMAN.H11MO.0.A	.	0	1	.	.	.	5.38e+00	2	2	12	1313	1.20e-06	1.08e-05
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZFP82_HUMAN.H11MO.0.C	.	0	0	.	.	.	5.55e+00	110	1	20	3233	1.29e-06	1.16e-05
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZFP82_HUMAN.H11MO.0.C	.	0	0	.	.	.	5.55e+00	94	6	30	3233	2.76e-06	2.49e-05
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZFP82_HUMAN.H11MO.0.C	.	0	0	.	.	.	5.55e+00	86	1	19	3233	4.17e-06	3.75e-05
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	GATA3_HUMAN.H11MO.0.A	.	2	1	.	.	.	5.62e+00	0	0	27	5891	1.16e-06	1.05e-05
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	SMAD4_HUMAN.H11MO.0.B	.	1	0	.	.	.	6.16e+00	13	0	19	3245	1.31e-06	1.18e-05
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	SMAD4_HUMAN.H11MO.0.B	.	1	0	.	.	.	6.16e+00	132	6	29	3245	1.47e-06	1.32e-05
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	TAF1_HUMAN.H11MO.0.A	.	0	0	.	.	.	6.29e+00	24	2	27	5617	1.38e-06	1.24e-05
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN680_HUMAN.H11MO.0.C	.	0	0	.	.	.	7.06e+00	95	2	5	156	1.60e-06	1.44e-05
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	PBX3_HUMAN.H11MO.0.A	.	0	1	.	.	.	7.73e+00	23	0	19	3344	1.63e-06	1.46e-05
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	NOBOX_HUMAN.H11MO.0.C	.	1	1	.	.	.	8.08e+00	22	0	13	1720	1.67e-06	1.50e-05
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZIC1_HUMAN.H11MO.0.B	.	0	1	.	.	.	9.05e+00	79	2	27	6058	1.88e-06	1.69e-05
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	NR4A1_HUMAN.H11MO.0.A	.	0	1	.	.	.	9.44e+00	132	2	26	5727	1.96e-06	1.77e-05
+##
+# Detailed descriptions of columns in this file:
+#
+# prim_db:	The name of the database (file name) that contains the primary motif.
+# prim_id:	A name for the primary motif that is unique in the motif database file.
+# prim_alt:	An alternate name of the primary motif that may be provided
+#		in the motif database file.
+# sec_db:	The name of the database (file name) that contains the secondary motif.
+# sec_id:	A name for the motif that is unique in the motif database file.
+# sec_alt:	An alternate name of the secondary motif that may be provided
+#		in the motif database file.
+# trim_left:	Number of positions trimmed from left of secondary motif
+# trim_right:	Number of positions trimmed from right of secondary motif
+# If the next three fields are not blank, the motif is redundant with a more significant ('parent') motif.
+# red_db:	The database (file name) that contains the parent motif.
+# red_id:	A name for the parent motif that is unique in the motif database file.
+# red_alt:	An alternate name of the parent motif that may be provided
+#		in the motif database file.
+# E-value:	The expected number motifs that would have least one
+#		spacing as enriched as the best spacing for this secondary.
+#		The E-value is the best spacing p-value multiplied by the number of motifs in the
+#		input database(s).
+# gap:		The distance between the edge of the primary and the (trimmed) secondary motif.
+# orient:	The (combination) of quadrants for which occurrences
+#		of this spacing are combined.
+# count:	The number of occurrences of the secondary motif with the
+#		given spacing and orientation to the primary motif.
+# total:	The total number of occurrences of the secondary motif within the
+#		margins around the best primary motif occurrence.
+# adj_p-value:	The p-value of the gap and orientation, adjusted for
+#		nine combinations of quadrants times the number of gaps tested
+#		(as controlled by the -range switch).
+# p-value:	The p-value of the gap and orientation adjusted only for the number of gaps tested.

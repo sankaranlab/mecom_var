@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Begin document body -->
+<fimo version="4.11.3" release="Sat Mar 11 20:16:08 2017 -0800">
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation=  xmlns:fimo="http://noble.gs.washington.edu/schema/fimo"
+>
+<command-line>/broad/software/free/Linux/redhat_7_x86_64/pkgs/meme_4.11.3_1/bin/fimo --parse-genomic-coord --thresh 5e-4 --verbosity 1 --oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/fimo_out_1_0005 --bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background --motif AGGAARY /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa</command-line>
+<settings>
+<setting name="output directory">/broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/fimo_out_1_0005</setting>
+<setting name="MEME file name">/broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml</setting>
+<setting name="sequence file name">/broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa</setting>
+<setting name="background file name">/broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background</setting>
+<setting name="allow clobber">true</setting>
+<setting name="compute q-values">true</setting>
+<setting name="parse genomic coord.">true</setting>
+<setting name="text only">false</setting>
+<setting name="scan both strands">true</setting>
+<setting name="output threshold">0.0005</setting>
+<setting name="threshold type">p-value</setting>
+<setting name="max stored scores">100000</setting>
+<setting name="pseudocount">0.1</setting>
+<setting name="verbosity">1</setting>
+<setting name="selected motif">AGGAARY</setting>
+</settings>
+<sequence-data num-sequences="7128" num-residues="3564000" />
+<alphabet name="DNA" like="dna">
+<letter id="A" symbol="A" complement="T" name="Adenine" colour="CC0000"/>
+<letter id="C" symbol="C" complement="G" name="Cytosine" colour="0000CC"/>
+<letter id="G" symbol="G" complement="C" name="Guanine" colour="FFB300"/>
+<letter id="T" symbol="T" aliases="U" complement="A" name="Thymine" colour="008000"/>
+<letter id="N" symbol="N" aliases="X." equals="ACGT" name="Any base"/>
+<letter id="V" symbol="V" equals="ACG" name="Not T"/>
+<letter id="H" symbol="H" equals="ACT" name="Not G"/>
+<letter id="D" symbol="D" equals="AGT" name="Not C"/>
+<letter id="B" symbol="B" equals="CGT" name="Not A"/>
+<letter id="M" symbol="M" equals="AC" name="Amino"/>
+<letter id="R" symbol="R" equals="AG" name="Purine"/>
+<letter id="W" symbol="W" equals="AT" name="Weak"/>
+<letter id="S" symbol="S" equals="CG" name="Strong"/>
+<letter id="Y" symbol="Y" equals="CT" name="Pyrimidine"/>
+<letter id="K" symbol="K" equals="GT" name="Keto"/>
+</alphabet>
+<motif name="AGGAARY" width="7" best-possible-match="AGGAAGT"/>
+<motif name="SVGGAA" width="6" best-possible-match="GAGGAA"/>
+<motif name="RRCCACA" width="7" best-possible-match="AACCACA"/>
+<motif name="CYCCRCCC" width="8" best-possible-match="CCCCGCCC"/>
+<motif name="RTGASTCA" width="8" best-possible-match="GTGACTCA"/>
+<motif name="AKAAAH" width="6" best-possible-match="AGAAAA"/>
+<motif name="CCDCCKCC" width="8" best-possible-match="CCGCCTCC"/>
+<motif name="CACGTGRY" width="8" best-possible-match="CACGTGAC"/>
+<motif name="CMCAGM" width="6" best-possible-match="CCCAGC"/>
+<motif name="AGATAA" width="6" best-possible-match="AGATAA"/>
+<background source="/broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background">
+<value letter="A">0.236</value>
+<value letter="C">0.264</value>
+<value letter="G">0.264</value>
+<value letter="T">0.236</value>
+</background>
+<cisml-file>cisml.xml</cisml-file>
+</fimo>

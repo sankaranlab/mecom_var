@@ -1,0 +1,242 @@
+Invoking:
+  getsize /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa 1> $metrics
+Finished invoke:
+  name: count_seqs  status: 0  time: 0.068885
+Invoking:
+  fasta-most -min 50 < /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa 1> $metrics
+Finished invoke:
+  name: most_seqs  status: 0  time: 0.126417
+Invoking:
+  fasta-center -dna -len 100 < /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa 1> /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/seqs-centered
+Finished invoke:
+  name: center_seqs  status: 0  time: 0.219176
+Invoking:
+  fasta-shuffle-letters /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/seqs-centered /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/seqs-shuffled -kmer 2 -tag -dinuc -dna -seed 1
+Finished invoke:
+  name: shuffle_seqs  status: 0  time: 0.053213
+Invoking:
+  fasta-subsample /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/seqs-centered 600 -rest /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/seqs-discarded -seed 1 1> /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/seqs-sampled
+Finished invoke:
+  name: sample_seqs  status: 0  time: 0.274655
+Invoking:
+  fasta-get-markov -nostatus -nosummary -dna -m 1 /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background
+Finished invoke:
+  name: bg  status: 0  time: 0.045312
+Invoking:
+  meme /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/seqs-sampled -oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/meme_out -mod zoops -nmotifs 10 -minw 6 -maxw 30 -bfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background -dna -p 4 -revcomp -nostatus
+Finished invoke:
+  name: meme  status: 0  time: 3069.514157
+Invoking:
+  dreme -v 1 -oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out -png -dna -p /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/seqs-centered -n /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/seqs-shuffled -m 10
+Finished invoke:
+  name: dreme  status: 0  time: 708.004005
+Invoking:
+  centrimo -seqlen 500 -verbosity 1 -oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/centrimo_out -bfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/meme_out/meme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme
+Finished invoke:
+  name: centrimo  status: 0  time: 51.529398
+Invoking:
+  tomtom -verbosity 1 -oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/meme_tomtom_out -min-overlap 5 -dist pearson -evalue -thresh 1 -no-ssc -bfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/meme_out/meme.xml /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme
+Finished invoke:
+  name: meme_tomtom  status: 0  time: 34.906074
+Invoking:
+  tomtom -verbosity 1 -oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_tomtom_out -min-overlap 5 -dist pearson -evalue -thresh 1 -no-ssc -bfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme
+Finished invoke:
+  name: dreme_tomtom  status: 0  time: 2.046828
+Invoking:
+  tomtom -verbosity 1 -text -thresh 0.1 /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/combined.meme /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/combined.meme 1> /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/motif_alignment.txt
+Finished invoke:
+  name: align  status: 0  time: 40.06029
+Invoking:
+  spamo -verbosity 1 -oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/spamo_out_1 -bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background -primary AGGAARY /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/meme_out/meme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme
+Finished invoke:
+  name: spamo1  status: 0  time: 240.774762
+Invoking:
+  spamo -verbosity 1 -oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/spamo_out_2 -bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background -primary CTCFL_HUMAN.H11MO.0.A /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/meme_out/meme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme
+Finished invoke:
+  name: spamo2  status: 0  time: 207.526864
+Invoking:
+  spamo -verbosity 1 -oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/spamo_out_3 -bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background -primary RRCCACA /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/meme_out/meme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme
+Finished invoke:
+  name: spamo3  status: 0  time: 171.614865
+Invoking:
+  spamo -verbosity 1 -oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/spamo_out_4 -bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background -primary 1 /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/meme_out/meme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/meme_out/meme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme
+Finished invoke:
+  name: spamo4  status: 0  time: 166.000827
+Invoking:
+  spamo -verbosity 1 -oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/spamo_out_5 -bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background -primary RTGASTCA /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/meme_out/meme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme
+Finished invoke:
+  name: spamo5  status: 0  time: 51.774163
+Invoking:
+  spamo -verbosity 1 -oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/spamo_out_6 -bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background -primary CYCCRCCC /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/meme_out/meme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme
+Finished invoke:
+  name: spamo6  status: 0  time: 134.182825
+Invoking:
+  spamo -verbosity 1 -oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/spamo_out_7 -bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background -primary AKAAAH /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/meme_out/meme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme
+Finished invoke:
+  name: spamo7  status: 0  time: 338.799653
+Invoking:
+  spamo -verbosity 1 -oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/spamo_out_8 -bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background -primary CREB1_HUMAN.H11MO.0.A /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/meme_out/meme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme
+Finished invoke:
+  name: spamo8  status: 0  time: 156.643269
+Invoking:
+  spamo -verbosity 1 -oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/spamo_out_9 -bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background -primary 3 /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/meme_out/meme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/meme_out/meme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme
+Finished invoke:
+  name: spamo9  status: 0  time: 127.001497
+Invoking:
+  spamo -verbosity 1 -oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/spamo_out_10 -bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background -primary 5 /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/meme_out/meme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/meme_out/meme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme
+Finished invoke:
+  name: spamo10  status: 0  time: 18.933303
+Invoking:
+  spamo -verbosity 1 -oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/spamo_out_11 -bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background -primary 4 /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/meme_out/meme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/meme_out/meme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme
+Finished invoke:
+  name: spamo11  status: 0  time: 13.709459
+Invoking:
+  spamo -verbosity 1 -oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/spamo_out_12 -bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background -primary CACGTGRY /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/meme_out/meme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme
+Finished invoke:
+  name: spamo12  status: 0  time: 22.148262
+Invoking:
+  spamo -verbosity 1 -oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/spamo_out_13 -bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background -primary NRF1_HUMAN.H11MO.0.A /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/meme_out/meme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme
+Finished invoke:
+  name: spamo13  status: 0  time: 66.934954
+Invoking:
+  spamo -verbosity 1 -oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/spamo_out_14 -bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background -primary MYOG_HUMAN.H11MO.0.B /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/meme_out/meme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme
+Finished invoke:
+  name: spamo14  status: 0  time: 193.812209
+Invoking:
+  spamo -verbosity 1 -oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/spamo_out_15 -bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background -primary TAF1_HUMAN.H11MO.0.A /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/meme_out/meme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme
+Finished invoke:
+  name: spamo15  status: 0  time: 361.707918
+Invoking:
+  spamo -verbosity 1 -oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/spamo_out_16 -bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background -primary FOXI1_HUMAN.H11MO.0.B /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/meme_out/meme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme
+Finished invoke:
+  name: spamo16  status: 0  time: 42.738042
+Invoking:
+  spamo -verbosity 1 -oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/spamo_out_17 -bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background -primary AGATAA /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/meme_out/meme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme
+Finished invoke:
+  name: spamo17  status: 0  time: 81.098428
+Invoking:
+  spamo -verbosity 1 -oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/spamo_out_18 -bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background -primary PBX3_HUMAN.H11MO.0.A /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/meme_out/meme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme
+Finished invoke:
+  name: spamo18  status: 0  time: 298.739529
+Invoking:
+  spamo -verbosity 1 -oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/spamo_out_19 -bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background -primary E2F4_HUMAN.H11MO.0.A /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/meme_out/meme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme
+Finished invoke:
+  name: spamo19  status: 0  time: 243.523553
+Invoking:
+  spamo -verbosity 1 -oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/spamo_out_20 -bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background -primary ZBT14_HUMAN.H11MO.0.C /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/meme_out/meme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme
+Finished invoke:
+  name: spamo20  status: 0  time: 120.595336
+Invoking:
+  spamo -verbosity 1 -oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/spamo_out_21 -bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background -primary RFX5_HUMAN.H11MO.0.A /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/meme_out/meme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme
+Finished invoke:
+  name: spamo21  status: 0  time: 230.037184
+Invoking:
+  spamo -verbosity 1 -oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/spamo_out_22 -bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background -primary KLF8_HUMAN.H11MO.0.C /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/meme_out/meme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme
+Finished invoke:
+  name: spamo22  status: 0  time: 182.351106
+Invoking:
+  spamo -verbosity 1 -oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/spamo_out_23 -bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background -primary ZSC31_HUMAN.H11MO.0.C /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/meme_out/meme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme
+Finished invoke:
+  name: spamo23  status: 0  time: 228.720694
+Invoking:
+  spamo -verbosity 1 -oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/spamo_out_24 -bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background -primary NKX25_HUMAN.H11MO.0.B /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/meme_out/meme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme
+Finished invoke:
+  name: spamo24  status: 0  time: 481.27848
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/fimo_out_1 --bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background --motif AGGAARY /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa
+Finished invoke:
+  name: fimo1  status: 0  time: 1.812879
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/fimo_out_2 --bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background --motif CTCFL_HUMAN.H11MO.0.A /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa
+Finished invoke:
+  name: fimo2  status: 0  time: 2.056086
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/fimo_out_3 --bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background --motif RRCCACA /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa
+Finished invoke:
+  name: fimo3  status: 0  time: 1.763012
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/fimo_out_4 --bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background --motif 1 /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/meme_out/meme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa
+Finished invoke:
+  name: fimo4  status: 0  time: 2.221839
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/fimo_out_5 --bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background --motif RTGASTCA /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa
+Finished invoke:
+  name: fimo5  status: 0  time: 1.758508
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/fimo_out_6 --bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background --motif CYCCRCCC /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa
+Finished invoke:
+  name: fimo6  status: 0  time: 1.800909
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/fimo_out_7 --bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background --motif AKAAAH /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa
+Finished invoke:
+  name: fimo7  status: 0  time: 1.702213
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/fimo_out_8 --bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background --motif CREB1_HUMAN.H11MO.0.A /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa
+Finished invoke:
+  name: fimo8  status: 0  time: 1.960792
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/fimo_out_9 --bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background --motif 3 /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/meme_out/meme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa
+Finished invoke:
+  name: fimo9  status: 0  time: 2.077719
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/fimo_out_10 --bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background --motif 5 /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/meme_out/meme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa
+Finished invoke:
+  name: fimo10  status: 0  time: 2.196872
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/fimo_out_11 --bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background --motif 4 /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/meme_out/meme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa
+Finished invoke:
+  name: fimo11  status: 0  time: 2.205405
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/fimo_out_12 --bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background --motif CACGTGRY /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa
+Finished invoke:
+  name: fimo12  status: 0  time: 1.745632
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/fimo_out_13 --bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background --motif NRF1_HUMAN.H11MO.0.A /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa
+Finished invoke:
+  name: fimo13  status: 0  time: 2.047321
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/fimo_out_14 --bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background --motif MYOG_HUMAN.H11MO.0.B /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa
+Finished invoke:
+  name: fimo14  status: 0  time: 2.020395
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/fimo_out_15 --bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background --motif TAF1_HUMAN.H11MO.0.A /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa
+Finished invoke:
+  name: fimo15  status: 0  time: 2.071737
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/fimo_out_16 --bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background --motif FOXI1_HUMAN.H11MO.0.B /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa
+Finished invoke:
+  name: fimo16  status: 0  time: 1.981678
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/fimo_out_17 --bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background --motif AGATAA /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/dreme_out/dreme.xml /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa
+Finished invoke:
+  name: fimo17  status: 0  time: 1.701106
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/fimo_out_18 --bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background --motif PBX3_HUMAN.H11MO.0.A /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa
+Finished invoke:
+  name: fimo18  status: 0  time: 1.97059
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/fimo_out_19 --bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background --motif E2F4_HUMAN.H11MO.0.A /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa
+Finished invoke:
+  name: fimo19  status: 0  time: 2.04612
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/fimo_out_20 --bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background --motif ZBT14_HUMAN.H11MO.0.C /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa
+Finished invoke:
+  name: fimo20  status: 0  time: 1.946332
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/fimo_out_21 --bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background --motif RFX5_HUMAN.H11MO.0.A /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa
+Finished invoke:
+  name: fimo21  status: 0  time: 2.106364
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/fimo_out_22 --bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background --motif KLF8_HUMAN.H11MO.0.C /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa
+Finished invoke:
+  name: fimo22  status: 0  time: 1.952822
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/fimo_out_23 --bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background --motif ZSC31_HUMAN.H11MO.0.C /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa
+Finished invoke:
+  name: fimo23  status: 0  time: 2.074845
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/fimo_out_24 --bgfile /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/background --motif NKX25_HUMAN.H11MO.0.B /broad/sankaranlab/fyu/motif_data/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme /broad/sankaranlab/fyu/HemeMap/02262021-downMast_re-analysis/motif_denovo/up_mast0035_interactions_10x_hocomoco_meme-chip/20210227-deg_interactions_peaks_up_mast0035_fa_1based.fa
+Finished invoke:
+  name: fimo24  status: 0  time: 1.937673
+Writing output
+Done

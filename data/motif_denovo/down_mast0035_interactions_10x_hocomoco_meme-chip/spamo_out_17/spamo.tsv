@@ -1,0 +1,122 @@
+prim_db	prim_id	prim_alt	sec_db	sec_id	sec_alt	trim_left	trim_right	red_db	red_id	red_alt	E-value	gap	orient	count	total	adj_p-value	p-value
+dreme.xml	ARATA	DREME	meme.xml	5	MEME	0	0	.	.	.	1.12e-16	13	3	17	198	2.72e-23	2.45e-22
+dreme.xml	ARATA	DREME	meme.xml	5	MEME	0	0	.	.	.	1.12e-16	13	5	17	198	2.51e-18	2.26e-17
+dreme.xml	ARATA	DREME	meme.xml	5	MEME	0	0	.	.	.	1.12e-16	13	7	17	198	2.51e-18	2.26e-17
+dreme.xml	ARATA	DREME	meme.xml	5	MEME	0	0	.	.	.	1.12e-16	13	8	17	198	1.62e-13	1.46e-12
+dreme.xml	ARATA	DREME	meme.xml	5	MEME	0	0	.	.	.	1.12e-16	87	1	9	198	5.75e-11	5.18e-10
+dreme.xml	ARATA	DREME	meme.xml	5	MEME	0	0	.	.	.	1.12e-16	87	4	9	198	2.07e-08	1.87e-07
+dreme.xml	ARATA	DREME	meme.xml	5	MEME	0	0	.	.	.	1.12e-16	87	6	9	198	2.07e-08	1.87e-07
+dreme.xml	ARATA	DREME	meme.xml	5	MEME	0	0	.	.	.	1.12e-16	86	1	6	198	4.77e-07	4.30e-06
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN121_HUMAN.H11MO.0.C	.	0	0	.	.	.	3.83e-14	13	0	18	364	8.59e-21	7.73e-20
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN121_HUMAN.H11MO.0.C	.	0	0	.	.	.	3.83e-14	13	4	18	364	1.20e-15	1.08e-14
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN121_HUMAN.H11MO.0.C	.	0	0	.	.	.	3.83e-14	13	5	18	364	1.20e-15	1.08e-14
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN121_HUMAN.H11MO.0.C	.	0	0	.	.	.	3.83e-14	13	8	18	364	9.04e-11	8.14e-10
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN121_HUMAN.H11MO.0.C	.	0	0	.	.	.	3.83e-14	14	0	9	364	5.68e-09	5.11e-08
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN121_HUMAN.H11MO.0.C	.	0	0	.	.	.	3.83e-14	128	2	7	364	8.97e-07	8.07e-06
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN121_HUMAN.H11MO.0.C	.	0	0	.	.	.	3.83e-14	14	4	9	364	1.59e-06	1.43e-05
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN121_HUMAN.H11MO.0.C	.	0	0	.	.	.	3.83e-14	14	5	9	364	1.59e-06	1.43e-05
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN121_HUMAN.H11MO.0.C	.	0	0	.	.	.	3.83e-14	128	7	9	364	1.59e-06	1.43e-05
+dreme.xml	ARATA	DREME	meme.xml	4	MEME	0	0	meme.xml	ZN121_HUMAN.H11MO.0.C	.	9.06e-14	14	0	16	242	2.15e-20	1.93e-19
+dreme.xml	ARATA	DREME	meme.xml	4	MEME	0	0	meme.xml	ZN121_HUMAN.H11MO.0.C	.	9.06e-14	14	4	16	242	9.17e-16	8.25e-15
+dreme.xml	ARATA	DREME	meme.xml	4	MEME	0	0	meme.xml	ZN121_HUMAN.H11MO.0.C	.	9.06e-14	14	5	16	242	9.17e-16	8.25e-15
+dreme.xml	ARATA	DREME	meme.xml	4	MEME	0	0	meme.xml	ZN121_HUMAN.H11MO.0.C	.	9.06e-14	14	8	16	242	2.55e-11	2.29e-10
+dreme.xml	ARATA	DREME	meme.xml	4	MEME	0	0	meme.xml	ZN121_HUMAN.H11MO.0.C	.	9.06e-14	15	0	8	242	5.18e-09	4.66e-08
+dreme.xml	ARATA	DREME	meme.xml	4	MEME	0	0	meme.xml	ZN121_HUMAN.H11MO.0.C	.	9.06e-14	120	2	7	242	8.79e-08	7.91e-07
+dreme.xml	ARATA	DREME	meme.xml	4	MEME	0	0	meme.xml	ZN121_HUMAN.H11MO.0.C	.	9.06e-14	15	4	8	242	8.74e-07	7.87e-06
+dreme.xml	ARATA	DREME	meme.xml	4	MEME	0	0	meme.xml	ZN121_HUMAN.H11MO.0.C	.	9.06e-14	15	5	8	242	8.74e-07	7.87e-06
+dreme.xml	ARATA	DREME	meme.xml	4	MEME	0	0	meme.xml	ZN121_HUMAN.H11MO.0.C	.	9.06e-14	120	6	8	242	8.74e-07	7.87e-06
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	PAX5_HUMAN.H11MO.0.A	.	0	0	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN121_HUMAN.H11MO.0.C	.	8.50e-09	14	0	20	976	1.92e-15	1.73e-14
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	PAX5_HUMAN.H11MO.0.A	.	0	0	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN121_HUMAN.H11MO.0.C	.	8.50e-09	14	4	20	976	3.53e-10	3.17e-09
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	PAX5_HUMAN.H11MO.0.A	.	0	0	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN121_HUMAN.H11MO.0.C	.	8.50e-09	14	5	20	976	3.53e-10	3.17e-09
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	PAX5_HUMAN.H11MO.0.A	.	0	0	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN121_HUMAN.H11MO.0.C	.	8.50e-09	15	0	11	976	4.93e-07	4.44e-06
+dreme.xml	ARATA	DREME	meme.xml	6	MEME	0	0	.	.	.	5.91e-06	90	3	9	131	1.44e-12	1.29e-11
+dreme.xml	ARATA	DREME	meme.xml	6	MEME	0	0	.	.	.	5.91e-06	90	5	9	131	5.86e-10	5.28e-09
+dreme.xml	ARATA	DREME	meme.xml	6	MEME	0	0	.	.	.	5.91e-06	90	7	9	131	5.86e-10	5.28e-09
+dreme.xml	ARATA	DREME	meme.xml	6	MEME	0	0	.	.	.	5.91e-06	90	8	9	131	1.91e-07	1.72e-06
+dreme.xml	ARATA	DREME	meme.xml	6	MEME	0	0	.	.	.	5.91e-06	91	3	5	131	1.00e-06	9.02e-06
+dreme.xml	ARATA	DREME	meme.xml	6	MEME	0	0	.	.	.	5.91e-06	92	8	8	131	1.70e-06	1.53e-05
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	DLX3_HUMAN.H11MO.0.C	.	0	1	.	.	.	3.44e-05	2	3	17	1153	7.11e-12	6.40e-11
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	DLX3_HUMAN.H11MO.0.C	.	0	1	.	.	.	3.44e-05	2	5	18	1153	3.14e-08	2.83e-07
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	DLX3_HUMAN.H11MO.0.C	.	0	1	.	.	.	3.44e-05	29	5	17	1153	1.43e-07	1.29e-06
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	DLX3_HUMAN.H11MO.0.C	.	0	1	.	.	.	3.44e-05	2	7	17	1153	1.43e-07	1.29e-06
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	DLX3_HUMAN.H11MO.0.C	.	0	1	.	.	.	3.44e-05	2	8	24	1153	4.75e-07	4.27e-06
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	DLX3_HUMAN.H11MO.0.C	.	0	1	.	.	.	3.44e-05	29	8	24	1153	4.75e-07	4.27e-06
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	LHX2_HUMAN.H11MO.0.A	.	2	3	HOCOMOCOv11_core_HUMAN_mono_meme_format	DLX3_HUMAN.H11MO.0.C	.	2.66e-03	3	3	23	2924	5.44e-10	4.89e-09
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	LHX2_HUMAN.H11MO.0.A	.	2	3	HOCOMOCOv11_core_HUMAN_mono_meme_format	DLX3_HUMAN.H11MO.0.C	.	2.66e-03	3	5	28	2924	3.14e-07	2.83e-06
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	LHX2_HUMAN.H11MO.0.A	.	2	3	HOCOMOCOv11_core_HUMAN_mono_meme_format	DLX3_HUMAN.H11MO.0.C	.	2.66e-03	3	7	26	2924	2.42e-06	2.18e-05
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	MEF2D_HUMAN.H11MO.0.A	.	1	0	.	.	.	7.92e-05	0	3	15	884	1.66e-11	1.50e-10
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	MEF2D_HUMAN.H11MO.0.A	.	1	0	.	.	.	7.92e-05	0	7	16	884	2.47e-08	2.22e-07
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	MEF2D_HUMAN.H11MO.0.A	.	1	0	.	.	.	7.92e-05	0	5	15	884	1.29e-07	1.16e-06
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	MEF2D_HUMAN.H11MO.0.A	.	1	0	.	.	.	7.92e-05	0	8	19	884	3.53e-06	3.17e-05
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	MEF2B_HUMAN.H11MO.0.A	.	2	0	.	.	.	1.79e-04	0	3	23	2446	3.78e-11	3.41e-10
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	MEF2B_HUMAN.H11MO.0.A	.	2	0	.	.	.	1.79e-04	0	5	25	2446	6.27e-07	5.64e-06
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	MEF2B_HUMAN.H11MO.0.A	.	2	0	.	.	.	1.79e-04	0	7	24	2446	1.83e-06	1.64e-05
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	FOXI1_HUMAN.H11MO.0.B	.	1	0	.	.	.	6.84e-03	26	1	8	231	1.44e-09	1.29e-08
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	FOXI1_HUMAN.H11MO.0.B	.	1	0	.	.	.	6.84e-03	26	4	10	231	1.79e-09	1.61e-08
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	FOXI1_HUMAN.H11MO.0.B	.	1	0	.	.	.	6.84e-03	26	6	8	231	2.58e-07	2.32e-06
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	FOXI1_HUMAN.H11MO.0.B	.	1	0	.	.	.	6.84e-03	26	8	10	231	8.99e-07	8.09e-06
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	RELB_HUMAN.H11MO.0.C	.	1	1	.	.	.	9.62e-03	11	1	17	1677	2.01e-09	1.80e-08
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	RELB_HUMAN.H11MO.0.C	.	1	1	.	.	.	9.62e-03	11	6	21	1677	1.32e-07	1.19e-06
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	MEF2A_HUMAN.H11MO.0.A	.	1	1	.	.	.	1.26e-02	0	3	16	1491	2.64e-09	2.38e-08
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	TFE2_HUMAN.H11MO.0.A	.	0	1	.	.	.	7.96e-02	37	2	14	1297	1.66e-08	1.49e-07
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	TFE2_HUMAN.H11MO.0.A	.	0	1	.	.	.	7.96e-02	37	6	17	1297	7.31e-07	6.58e-06
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	TFE2_HUMAN.H11MO.0.A	.	0	1	.	.	.	7.96e-02	37	7	16	1297	2.78e-06	2.50e-05
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	MEF2C_HUMAN.H11MO.0.A	.	1	1	.	.	.	8.25e-02	0	3	15	1499	1.73e-08	1.56e-07
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN770_HUMAN.H11MO.0.C	.	0	1	.	.	.	1.15e-01	61	0	17	1857	2.61e-08	2.35e-07
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN770_HUMAN.H11MO.0.C	.	0	1	.	.	.	1.15e-01	48	6	24	1857	5.69e-08	5.12e-07
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN770_HUMAN.H11MO.0.C	.	0	1	.	.	.	1.15e-01	48	2	16	1857	1.27e-07	1.14e-06
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN770_HUMAN.H11MO.0.C	.	0	1	.	.	.	1.15e-01	61	4	21	1857	2.05e-06	1.84e-05
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	NFYB_HUMAN.H11MO.0.A	.	1	1	.	.	.	1.34e-01	18	6	14	676	2.82e-08	2.54e-07
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	NFYB_HUMAN.H11MO.0.A	.	1	1	.	.	.	1.34e-01	18	2	9	676	5.44e-07	4.89e-06
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	OSR2_HUMAN.H11MO.0.C	.	4	0	.	.	.	1.41e-01	39	2	21	3002	2.99e-08	2.69e-07
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	OSR2_HUMAN.H11MO.0.C	.	4	0	.	.	.	1.41e-01	39	7	28	3002	9.61e-07	8.65e-06
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	PO5F1_HUMAN.H11MO.0.A	.	0	0	.	.	.	2.46e-01	23	7	21	1516	5.35e-08	4.81e-07
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	PO5F1_HUMAN.H11MO.0.A	.	0	0	.	.	.	2.46e-01	23	8	30	1516	2.50e-07	2.25e-06
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	PO5F1_HUMAN.H11MO.0.A	.	0	0	.	.	.	2.46e-01	23	2	12	1516	4.15e-06	3.74e-05
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	NFYC_HUMAN.H11MO.0.A	.	2	2	.	.	.	4.77e-01	18	2	14	1510	9.94e-08	8.95e-07
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	NFYC_HUMAN.H11MO.0.A	.	2	2	.	.	.	4.77e-01	18	6	19	1510	3.87e-07	3.49e-06
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	NFYC_HUMAN.H11MO.0.A	.	2	2	.	.	.	4.77e-01	27	0	12	1510	2.64e-06	2.38e-05
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	BHA15_HUMAN.H11MO.0.B	.	0	0	.	.	.	9.83e-01	38	3	16	2078	2.07e-07	1.86e-06
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	ZN418_HUMAN.H11MO.0.C	.	0	2	.	.	.	3.99e+00	6	1	17	2530	8.66e-07	7.80e-06
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	TBX21_HUMAN.H11MO.0.A	.	2	1	.	.	.	4.91e+00	36	7	36	4471	1.03e-06	9.27e-06
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	TBX21_HUMAN.H11MO.0.A	.	2	1	.	.	.	4.91e+00	36	3	23	4471	1.07e-06	9.64e-06
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	NKX31_HUMAN.H11MO.0.C	.	1	1	.	.	.	5.21e+00	40	3	18	2956	1.09e-06	9.84e-06
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	MYOG_HUMAN.H11MO.0.B	.	0	2	.	.	.	6.16e+00	95	2	12	1394	1.30e-06	1.17e-05
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	ITF2_HUMAN.H11MO.0.C	.	1	0	.	.	.	6.52e+00	37	3	20	3627	1.36e-06	1.22e-05
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	BATF3_HUMAN.H11MO.0.B	.	1	2	.	.	.	7.24e+00	13	1	17	2671	1.57e-06	1.41e-05
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	SMAD3_HUMAN.H11MO.0.B	.	2	0	.	.	.	8.27e+00	64	1	28	6290	1.74e-06	1.57e-05
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	AP2B_HUMAN.H11MO.0.B	.	0	1	.	.	.	8.48e+00	111	1	15	2233	1.77e-06	1.60e-05
+dreme.xml	ARATA	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	ANDR_HUMAN.H11MO.0.A	.	0	0	.	.	.	9.24e+00	109	6	28	3000	2.07e-06	1.86e-05
+##
+# Detailed descriptions of columns in this file:
+#
+# prim_db:	The name of the database (file name) that contains the primary motif.
+# prim_id:	A name for the primary motif that is unique in the motif database file.
+# prim_alt:	An alternate name of the primary motif that may be provided
+#		in the motif database file.
+# sec_db:	The name of the database (file name) that contains the secondary motif.
+# sec_id:	A name for the motif that is unique in the motif database file.
+# sec_alt:	An alternate name of the secondary motif that may be provided
+#		in the motif database file.
+# trim_left:	Number of positions trimmed from left of secondary motif
+# trim_right:	Number of positions trimmed from right of secondary motif
+# If the next three fields are not blank, the motif is redundant with a more significant ('parent') motif.
+# red_db:	The database (file name) that contains the parent motif.
+# red_id:	A name for the parent motif that is unique in the motif database file.
+# red_alt:	An alternate name of the parent motif that may be provided
+#		in the motif database file.
+# E-value:	The expected number motifs that would have least one
+#		spacing as enriched as the best spacing for this secondary.
+#		The E-value is the best spacing p-value multiplied by the number of motifs in the
+#		input database(s).
+# gap:		The distance between the edge of the primary and the (trimmed) secondary motif.
+# orient:	The (combination) of quadrants for which occurrences
+#		of this spacing are combined.
+# count:	The number of occurrences of the secondary motif with the
+#		given spacing and orientation to the primary motif.
+# total:	The total number of occurrences of the secondary motif within the
+#		margins around the best primary motif occurrence.
+# adj_p-value:	The p-value of the gap and orientation, adjusted for
+#		nine combinations of quadrants times the number of gaps tested
+#		(as controlled by the -range switch).
+# p-value:	The p-value of the gap and orientation adjusted only for the number of gaps tested.

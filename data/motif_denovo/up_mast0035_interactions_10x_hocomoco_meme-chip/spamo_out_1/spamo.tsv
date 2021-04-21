@@ -1,0 +1,65 @@
+prim_db	prim_id	prim_alt	sec_db	sec_id	sec_alt	trim_left	trim_right	red_db	red_id	red_alt	E-value	gap	orient	count	total	adj_p-value	p-value
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	ETV4_HUMAN.H11MO.0.B	.	2	2	.	.	.	1.02e-03	0	0	22	2538	2.07e-10	1.87e-09
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	ETV4_HUMAN.H11MO.0.B	.	2	2	.	.	.	1.02e-03	0	5	25	2538	6.45e-07	5.80e-06
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	TF7L1_HUMAN.H11MO.0.B	.	3	1	.	.	.	3.77e-03	0	1	20	2228	7.80e-10	7.02e-09
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	TF7L1_HUMAN.H11MO.0.B	.	3	1	.	.	.	3.77e-03	0	4	24	2228	2.83e-07	2.55e-06
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	TF7L1_HUMAN.H11MO.0.B	.	3	1	.	.	.	3.77e-03	0	6	22	2228	2.67e-06	2.41e-05
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	SP4_HUMAN.H11MO.0.A	.	2	1	.	.	.	5.15e-02	23	2	23	3226	1.13e-08	1.02e-07
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	STAT4_HUMAN.H11MO.0.A	.	0	1	.	.	.	1.23e-01	1	1	17	2011	2.56e-08	2.31e-07
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	STAT4_HUMAN.H11MO.0.A	.	0	1	.	.	.	1.23e-01	1	6	22	2011	6.34e-07	5.71e-06
+dreme.xml	AGGAARY	DREME	meme.xml	3	MEME	0	0	.	.	.	2.62e-01	115	5	28	2523	5.67e-08	5.11e-07
+dreme.xml	AGGAARY	DREME	meme.xml	3	MEME	0	0	.	.	.	2.62e-01	98	5	26	2523	5.23e-07	4.70e-06
+dreme.xml	AGGAARY	DREME	meme.xml	3	MEME	0	0	.	.	.	2.62e-01	115	3	17	2523	8.36e-07	7.53e-06
+dreme.xml	AGGAARY	DREME	meme.xml	3	MEME	0	0	.	.	.	2.62e-01	101	5	25	2523	1.50e-06	1.35e-05
+dreme.xml	AGGAARY	DREME	meme.xml	3	MEME	0	0	.	.	.	2.62e-01	102	5	25	2523	1.50e-06	1.35e-05
+dreme.xml	AGGAARY	DREME	meme.xml	3	MEME	0	0	.	.	.	2.62e-01	107	5	24	2523	4.16e-06	3.74e-05
+dreme.xml	AGGAARY	DREME	meme.xml	3	MEME	0	0	.	.	.	2.62e-01	111	5	24	2523	4.16e-06	3.74e-05
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	FOXP1_HUMAN.H11MO.0.A	.	0	0	.	.	.	3.26e-01	109	6	37	4147	6.75e-08	6.08e-07
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	FOXJ3_HUMAN.H11MO.0.A	.	1	0	HOCOMOCOv11_core_HUMAN_mono_meme_format	FOXP1_HUMAN.H11MO.0.A	.	5.89e+00	101	6	15	1063	1.25e-06	1.13e-05
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	FOXJ3_HUMAN.H11MO.0.A	.	1	0	HOCOMOCOv11_core_HUMAN_mono_meme_format	FOXP1_HUMAN.H11MO.0.A	.	5.89e+00	101	2	10	1063	3.46e-06	3.12e-05
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	CDX1_HUMAN.H11MO.0.C	.	0	1	.	.	.	7.98e-01	1	1	20	3177	1.63e-07	1.47e-06
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	CDX1_HUMAN.H11MO.0.C	.	0	1	.	.	.	7.98e-01	1	6	27	3177	3.66e-06	3.29e-05
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	NR1H3_HUMAN.H11MO.0.B	.	2	0	.	.	.	8.23e-01	62	8	31	1559	1.81e-07	1.63e-06
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	NR1H3_HUMAN.H11MO.0.B	.	2	0	.	.	.	8.23e-01	62	4	19	1559	1.22e-06	1.10e-05
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	NR1H3_HUMAN.H11MO.0.B	.	2	0	.	.	.	8.23e-01	62	0	13	1559	1.27e-06	1.14e-05
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	NR1H3_HUMAN.H11MO.0.B	.	2	0	.	.	.	8.23e-01	62	5	18	1559	4.10e-06	3.69e-05
+dreme.xml	AGGAARY	DREME	dreme.xml	SVGGAA	DREME	0	0	.	.	.	8.60e-01	1	0	18	2653	1.75e-07	1.57e-06
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	DBP_HUMAN.H11MO.0.B	.	0	2	.	.	.	2.47e+00	0	1	14	1756	5.13e-07	4.62e-06
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	GATA1_HUMAN.H11MO.0.A	.	1	1	.	.	.	2.93e+00	4	8	24	1109	6.46e-07	5.81e-06
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	PEBB_HUMAN.H11MO.0.C	.	0	1	.	.	.	7.30e+00	5	7	21	1974	1.54e-06	1.38e-05
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	THAP1_HUMAN.H11MO.0.C	.	1	0	.	.	.	7.59e+00	116	7	19	1552	1.73e-06	1.56e-05
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	SMCA1_HUMAN.H11MO.0.C	.	0	1	.	.	.	8.31e+00	101	0	19	3340	1.76e-06	1.59e-05
+dreme.xml	AGGAARY	DREME	HOCOMOCOv11_core_HUMAN_mono_meme_format	KLF6_HUMAN.H11MO.0.A	.	1	0	.	.	.	9.30e+00	25	2	21	3797	2.08e-06	1.87e-05
+##
+# Detailed descriptions of columns in this file:
+#
+# prim_db:	The name of the database (file name) that contains the primary motif.
+# prim_id:	A name for the primary motif that is unique in the motif database file.
+# prim_alt:	An alternate name of the primary motif that may be provided
+#		in the motif database file.
+# sec_db:	The name of the database (file name) that contains the secondary motif.
+# sec_id:	A name for the motif that is unique in the motif database file.
+# sec_alt:	An alternate name of the secondary motif that may be provided
+#		in the motif database file.
+# trim_left:	Number of positions trimmed from left of secondary motif
+# trim_right:	Number of positions trimmed from right of secondary motif
+# If the next three fields are not blank, the motif is redundant with a more significant ('parent') motif.
+# red_db:	The database (file name) that contains the parent motif.
+# red_id:	A name for the parent motif that is unique in the motif database file.
+# red_alt:	An alternate name of the parent motif that may be provided
+#		in the motif database file.
+# E-value:	The expected number motifs that would have least one
+#		spacing as enriched as the best spacing for this secondary.
+#		The E-value is the best spacing p-value multiplied by the number of motifs in the
+#		input database(s).
+# gap:		The distance between the edge of the primary and the (trimmed) secondary motif.
+# orient:	The (combination) of quadrants for which occurrences
+#		of this spacing are combined.
+# count:	The number of occurrences of the secondary motif with the
+#		given spacing and orientation to the primary motif.
+# total:	The total number of occurrences of the secondary motif within the
+#		margins around the best primary motif occurrence.
+# adj_p-value:	The p-value of the gap and orientation, adjusted for
+#		nine combinations of quadrants times the number of gaps tested
+#		(as controlled by the -range switch).
+# p-value:	The p-value of the gap and orientation adjusted only for the number of gaps tested.
