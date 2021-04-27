@@ -28,6 +28,23 @@ RUNX1_peakOverlap <- permTest(A=query_re_all, B=chip_peak_RUNX1, verbose=F, rand
 (RUNX1_peakOverlap$numOverlaps$observed)/median(RUNX1_peakOverlap$numOverlaps$permuted)
 # [1] 41.408
 
+# # try to sample the re across the entire hematopoietic catalogs
+# # validate the num
+# uni_re <- toGRanges(data.frame(fread("mecom_var_sankaran/data/hememap/10142020-atac_peak_pro.txt")))
+# FLI1_peakOverlap <- permTest(A=query_re_all, B=chip_peak_FLI1, verbose=F, randomize.function=resampleRegions, universe=uni_re, evaluate.function=numOverlaps, ntimes=1000, alternative="greater", genome="hg19", force.parallel=TRUE)
+# (FLI1_peakOverlap$numOverlaps$observed)/median(FLI1_peakOverlap$numOverlaps$permuted)
+# # [1] 4.287051
+# # validate
+# sampled_query_re_all <- resampleRegions(query_re_all, universe=uni_re)
+# numOverlaps(query_re_all, chip_peak_FLI1)
+# numOverlaps(sampled_query_re_all, chip_peak_FLI1)
+# GATA2_peakOverlap <- permTest(A=query_re_all, B=chip_peak_GATA2, verbose=F, randomize.function=resampleRegions, universe=uni_re, evaluate.function=numOverlaps, ntimes=1000, alternative="greater", genome="hg19", force.parallel=TRUE)
+# RUNX1_peakOverlap <- permTest(A=query_re_all, B=chip_peak_RUNX1, verbose=F, randomize.function=resampleRegions, universe=uni_re, evaluate.function=numOverlaps, ntimes=1000, alternative="greater", genome="hg19", force.parallel=TRUE)
+# (GATA2_peakOverlap$numOverlaps$observed)/median(GATA2_peakOverlap$numOverlaps$permuted)
+# # 3.5
+# (RUNX1_peakOverlap$numOverlaps$observed)/median(RUNX1_peakOverlap$numOverlaps$permuted)
+# # 4.7
+
 #
 # all
 #
@@ -60,6 +77,10 @@ query_re_down <- toGRanges(data.frame(fread("mecom_var_sankaran/data/down0035_de
 # CTCF from blood paper
 chip_peak_CTCF_hsc=toGRanges(data.frame(fread("mecom_var_sankaran/data/CTCF_enrich/CD34_D0.bed")))
 CTCF_hsc_peakOverlap <- permTest(A=query_re_down, B=chip_peak_CTCF_hsc, verbose=F, randomize.function=randomizeRegions, evaluate.function=numOverlaps, ntimes=1000, alternative="greater", genome="hg19", force.parallel=TRUE)
+# CTCF_hsc_peakOverlap <- permTest(A=query_re_down, B=chip_peak_CTCF_hsc, verbose=F, randomize.function=resampleRegions, universe=uni_re, evaluate.function=numOverlaps, ntimes=1000, alternative="greater", genome="hg19", force.parallel=TRUE)
+# (CTCF_hsc_peakOverlap$numOverlaps$observed)/median(CTCF_hsc_peakOverlap$numOverlaps$permuted)
+
+# 
 
 #
 # down
