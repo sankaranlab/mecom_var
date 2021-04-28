@@ -14,12 +14,13 @@ library(ggthemes)
 #log2FC of RNAseq data from each sample from TCGA of each gene compared to average of all samples
 ranked<- read_tsv("/Users/rvoit/GitHub/sankaranlab/mecom_var/TCGA_log2FC_individual_vs_avg.rnk.txt")
 
-#MECOM down genes individual samples
-set <- read_csv("/Users/rvoit/GitHub/sankaranlab/mecom_var/MAST035down genes.csv")
-set2 <- read_csv("/Users/rvoit/GitHub/sankaranlab/mecom_var/MAST035down genes.csv")
+#MECOM down genes
+set <- read_csv("/Users/rvoit/GitHub/sankaranlab/mecom_var/MECOMdown genes.csv")
+set2 <- read_csv("/Users/rvoit/GitHub/sankaranlab/mecom_var/MECOMdown genes.csv")
 
-setup <- read_csv("/Users/rvoit/GitHub/sankaranlab/mecom_var/MAST035up genes.csv")
-set2up <- read_csv("/Users/rvoit/GitHub/sankaranlab/mecom_var/MAST035up genes.csv")
+#MECOM up genes
+setup <- read_csv("/Users/rvoit/GitHub/sankaranlab/mecom_var/MECOMup genes.csv")
+set2up <- read_csv("/Users/rvoit/GitHub/sankaranlab/mecom_var/MECOMup genes.csv")
 
 # check to see how many features from set are in features of ranked
 set$feature[set$feature %in% ranked_surv$Gene] %>% length()
