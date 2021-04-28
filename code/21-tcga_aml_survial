@@ -12,45 +12,55 @@ library(fgsea)
 library(ggthemes)
 
 #log2FC of RNAseq data from each sample from TCGA of each gene compared to average of all samples
-ranked<- read_tsv("/Users/rvoit/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Sankaran lab/Experiments/CCLE data MECOM/TCGA data/TCGA individual samples/Working file.rnk.txt")
+ranked<- read_tsv("/Users/rvoit/GitHub/sankaranlab/mecom_var/TCGA_log2FC_individual_vs_avg.rnk.txt")
 
 #MECOM down genes individual samples
-set <- read_csv("/Users/rvoit/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Sankaran lab/Experiments/MECOM single cell analysis July 2020/10x data analysis/MAST DEG analysis/MAST035down genes.csv")
-set2 <- read_csv("/Users/rvoit/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Sankaran lab/Experiments/MECOM single cell analysis July 2020/10x data analysis/MAST DEG analysis/MAST035down genes.csv")
+set <- read_csv("/Users/rvoit/GitHub/sankaranlab/mecom_var/MAST035down genes.csv")
+set2 <- read_csv("/Users/rvoit/GitHub/sankaranlab/mecom_var/MAST035down genes.csv")
 
-setup <- read_csv("/Users/rvoit/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Sankaran lab/Experiments/MECOM single cell analysis July 2020/10x data analysis/MAST DEG analysis/MAST035down genes.csv")
-set2up <- read_csv("/Users/rvoit/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Sankaran lab/Experiments/MECOM single cell analysis July 2020/10x data analysis/MAST DEG analysis/MAST035down genes.csv")
+setup <- read_csv("/Users/rvoit/GitHub/sankaranlab/mecom_var/MAST035up genes.csv")
+set2up <- read_csv("/Users/rvoit/GitHub/sankaranlab/mecom_var/MAST035up genes.csv")
 
 # check to see how many features from set are in features of ranked
 set$feature[set$feature %in% ranked_surv$Gene] %>% length()
+
 # subset set to only have features present in ranked
 # will also make into vector from data.frame
 set <- set$feature[set$feature %in% ranked$Gene]
 set2gene <- data.frame(ID=1, Gene=set2)
 set2name <- data.frame(ID=1, Name="MECOM down")
+
+setup <- setup$feature[setup$feature %in% ranked$Gene]
+set2upgene <- data.frame(ID=1, Gene=set2up)
+set2upname <- data.frame(ID=1, Name="MECOM up")
+
 # comparison of each sample to the average of all samples. Update ranked$TCGA... with column header for analysis of each sample
 genelist<-ranked$TCGA.AB.2944
 names(genelist) <- ranked$Gene
 genelist<-sort(genelist, decreasing=TRUE)
 
-# run GSEA
+# run GSEA for MECOM down genes
 gse1 <- GSEA(genelist, TERM2GENE = set2gene, TERM2NAME = set2name, by="fgsea",pvalueCutoff = .01)
 gse1
-head(genelist)
-# plot - refer to the chapter 12 link I sent to choose type; some examples
-#gseaplot(gse1, geneSetID = 1, by = "runningScore", title = "LT-HSC MECOM signature depeleted in MECOM low AML")
-#gsearank(gse1, geneSetID = 1, title = "LT-HSC MECOM signature depeleted in MECOM low AML")
-#gseaplot2(gse1, geneSetID = 1, title = "LT-HSC MECOM signature depeleted in MECOM low AML")
-# look into  pvalue_table = TRUE for gseaplot2
 
 #Final formatted GSEA using TCGA down033
 FinalGSEA<-gseaplot2(gse1, 
                      geneSetID = 1, 
-                     #title = "LT-HSC MECOM signature enriched in MECOM high AML cell lines",
+                     #title = "MECOM down genes in TCGA",
                      base_size = 14,
                      subplots = 1:2,
 )
-
-
 FinalGSEA+theme_clean()
-write.csv(gse1,"/Users/rvoit/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Sankaran lab/Experiments/CCLE data MECOM/TCGA data/TCGA individual samples/Compared to average of all/2944 logFC vs MECOM low stats")
+
+# run GSEA for MECOM up genes
+gse1up <- GSEA(genelist, TERM2GENE = set2upgene, TERM2NAME = set2upname, by="fgsea",pvalueCutoff = .01)
+gse1up
+
+#Final formatted GSEA using TCGA down033
+FinalGSEA<-gseaplot2(gse1up, 
+                     geneSetID = 1, 
+                     #title = "MECOM up genes in TCGA",
+                     base_size = 14,
+                     subplots = 1:2,
+)
+FinalGSEAup+theme_clean()
