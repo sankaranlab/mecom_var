@@ -15,7 +15,6 @@ library(ggplot2)
 # 
 # in the broad 
 # 
-setwd("/broad/sankaranlab/fyu/09022020-MECOM_Richard/data/20210631-cellrevision/deglist")
 load("aavs1_11k.Rdata")
 load("mecom_16k.Rdata")
 
@@ -62,9 +61,9 @@ aavs_pseudo <- rowSums(aavs_count_mat)
 
 save.image("pesudo-bulk_ana.rda")
 
-load("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/20210801-cellrevision/pesudo-bulk_ana.rda")
-mast0035down <- read.table("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/02262021-downMast_re-analysis/deg/deg_mast0035_down.txt", header=F)[, 1]
-mast0035up <- read.table("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/02262021-downMast_re-analysis/deg/deg_mast0035_up.txt", header=F)[, 1]
+load("pesudo-bulk_ana.rda")
+mast0035down <- read.table("deg_mast0035_down.txt", header=F)[, 1]
+mast0035up <- read.table(deg_mast0035_up.txt", header=F)[, 1]
 # rerun 404-450
 fclist <- sort((mecom_pseudo/aavs_pseudo))
 log2fclist <- sort((mecom_pseudo/aavs_pseudo) %>% log2)
@@ -103,20 +102,19 @@ xx <- ggplot(mydata, aes(xcoordinate, log2(fclist), color = factor(deg_upordown)
                         size = 2, max.overlaps=300) + xlab("gene ranking") +ylab("log2(fold change)")
         theme(legend.position = "bottom")
 xx
-setwd("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/20210801-cellrevision")
 ggsave("pseudobulk_deganalysis3.pdf", width = 5, height = 5)
 
 ######## compare the fold change of DEGs of singlecell and pseudo-bulk data
-load("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/20210801-cellrevision/pesudo-bulk_ana.rda")
-mast0035down <- read.table("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/02262021-downMast_re-analysis/deg/deg_mast0035_down.txt", header=F)[, 1]
-mast0035up <- read.table("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/02262021-downMast_re-analysis/deg/deg_mast0035_up.txt", header=F)[, 1]
+load("pesudo-bulk_ana.rda")
+mast0035down <- read.table("deg_mast0035_down.txt", header=F)[, 1]
+mast0035up <- read.table("deg_mast0035_up.txt", header=F)[, 1]
 # rerun 404-450
 fclist <- sort((mecom_pseudo/aavs_pseudo))
 log2fclist <- sort((mecom_pseudo/aavs_pseudo) %>% log2)
 genename <- names(log2fclist)
 deglist <- genename
 
-mast035deg <- read.csv("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/02262021-downMast_re-analysis/deg/mast_de_merge_norm_1mecom_2aavs_0.035.csv")
+mast035deg <- read.csv("mast_de_merge_norm_1mecom_2aavs_0.035.csv")
 deglist[genename %in% mast0035down | genename %in% mast0035up] <- ""
 deg_upordown <- rep("not DEGs", length(deglist))
 deg_upordown[genename %in% mast0035down] <- "MECOM down genes"
@@ -160,6 +158,6 @@ ggplot(combineddeg, aes(avg_log2FC, log2fclist, color=deg_upordown))+
         geom_point() + theme_classic(base_size = 10) + xlim(-0.5, 0.6) +  ylim(-1.7, 1) +
         ggrepel::geom_text_repel(data=eithertop5, aes(avg_log2FC, log2fclist, label = genename), color = 'black',
                         size = 2, max.overlaps=300) + xlab("log2(fold change) from single-cell data") +ylab("log2(fold change) from pseudo bulk data")
-setwd("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/20210801-cellrevision")
+
 ggsave("foldchange_comparison.pdf", width = 5, height = 5)
 
