@@ -1,14 +1,14 @@
 library(dplyr)
 library(stringr)
 
-CTCF_AAVS_deg <- read.table("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/20210801-cellrevision/bulkrnaseq_ana/CTCF_AAVS_GeneMat.de.txt", header=T)
+CTCF_AAVS_deg <- read.table("CTCF_AAVS_GeneMat.de.txt", header=T)
 sum(CTCF_AAVS_deg$RealFC>1)
 # [1] 636
 sum(CTCF_AAVS_deg$RealFC<1)
 # [1] 557
 
 getfpkm <- function(profiles=c("CTCF_1.genes.results", "CTCF_2.genes.results", "CTCF_3.genes.results", "AAVS1_1.genes.results", "AAVS1_2.genes.results", "AAVS1_3.genes.results"), mergedfile="../bulkrnaseq_ana/CTCF_AAVS_GeneMat.txt"){
-    setwd("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/20210801-cellrevision/bulkrnaseq")
+    setwd("./bulkrnaseq")
     y <- read.table(mergedfile, header=T)
     tempmat <- data.frame(matrix(nrow=nrow(y), ncol=(length(profiles)+2)))
     rownames(tempmat) <- rownames(y)
@@ -36,14 +36,14 @@ ctcf_profile_idx <- !duplicated(str_split(rownames(ctcf_profile), "_", simplify 
 ctcf_profile <- ctcf_profile[ctcf_profile_idx, ]
 rownames(ctcf_profile) <- str_split(rownames(ctcf_profile), "_", simplify = T)[, 2]
 
-MECOM_AAVS_deg <- read.table("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/20210801-cellrevision/bulkrnaseq_ana/MECOM_AAVS_GeneMat.de.txt", header=T)
+MECOM_AAVS_deg <- read.table("MECOM_AAVS_GeneMat.de.txt", header=T)
 sum(MECOM_AAVS_deg$RealFC>1)
 # [1] 411
 sum(MECOM_AAVS_deg$RealFC<1)
 # [1] 375
 
 
-RUNX1_AAVS_deg <- read.table("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/20210801-cellrevision/bulkrnaseq_ana/RUNX1_AAVS_GeneMat.de.txt", header=T)
+RUNX1_AAVS_deg <- read.table("RUNX1_AAVS_GeneMat.de.txt", header=T)
 sum(RUNX1_AAVS_deg$RealFC>1)
 # [1] 436
 sum(RUNX1_AAVS_deg$RealFC<1)
@@ -80,8 +80,8 @@ intersect(bulkdegdown_RUNX1_AAVS, bulkdegup_MECOM_AAVS) %>% length
 
 
 # 10x 
-degup10x <- read.table("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/02262021-downMast_re-analysis/deg/deg_mast0035_up.txt")[, 1]
-degdown10x <- read.table("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/02262021-downMast_re-analysis/deg/deg_mast0035_down.txt")[, 1]
+degup10x <- read.table("deg_mast0035_up.txt")[, 1]
+degdown10x <- read.table("deg_mast0035_down.txt")[, 1]
 intersect(bulkdegup_RUNX1_AAVS, degup10x) %>% length
 # [1] 11
 intersect(bulkdegdown_RUNX1_AAVS, degdown10x) %>% length
@@ -191,11 +191,11 @@ chisq.test(observed_table)
 set.seed(9527)
 geneSet <- list() 
 geneSet[[1]] <- overlap_peak$peak_gene_name[overlap_peak$peak_gene_name != "0"] %>% unique # 2452
-geneSet[[2]] <- data.frame(fread("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/02262021-downMast_re-analysis/deg/deg_mast0035_down.txt"))[, 1]
-geneSet[[3]] <- data.frame(fread("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/02262021-downMast_re-analysis/deg/deg_mast0035_up.txt"))[, 1]
-geneSet[[4]] <- data.frame(fread("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/02262021-downMast_re-analysis/deg/deg_mast0035_all.txt"))[, 1]
+geneSet[[2]] <- data.frame(fread("deg_mast0035_down.txt"))[, 1]
+geneSet[[3]] <- data.frame(fread("deg_mast0035_up.txt"))[, 1]
+geneSet[[4]] <- data.frame(fread("deg_mast0035_all.txt"))[, 1]
 names(geneSet) <- c("loop_genes", "mast0035_down", "mast0035_up", "mast0035_all")
-# lt_hsc_exp <- data.frame(fread("/Users/fyu/Library/Mobile Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/11232020-ctcf-data/GSE125063_shCTCF_RNA_Seq_FPKM.tsv")) #2512
+# lt_hsc_exp <- data.frame(fread("GSE125063_shCTCF_RNA_Seq_FPKM.tsv")) #2512
 # lt_hsc_exp <- lt_hsc_exp[, 1:7] # 24331
 lt_hsc_exp <- ctcf_profile # 33514
 idx2 <- rowSums(lt_hsc_exp[, 1:6]) != 0 # remove duplicates with the wrong with 0 expression all the samples
@@ -219,7 +219,7 @@ compare_means(value ~ variable, data = xx_2sample_melt, method="wilcox.test", pa
 # Visualize: Specify the comparisons you want
 xx_2sample_melt$value <- log1p(xx_2sample_melt$value)
 my_comparisons <- list(c("LT_HSC_CTCFediting", "LT_HSC_Ctrl"))
-setwd("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/20210801-cellrevision/bulkrnaseq_ana2")
+setwd("bulkrnaseq_ana2")
 pdf("MECOM_down_genes_in_CTCF_loops.pdf")
 p <- ggboxplot(xx_2sample_melt, x = "variable", y = "value",  legend = "none", color="black", palette = "jco", width=0.5, fill = "variable", title="MECOM down genes in CTCF loops")+
     # , add = "jitter", notch = TRUE)+ 
@@ -235,11 +235,11 @@ dev.off()
 # S5f
 # non-ctcf loop genes
 
-peak_obj <- as.data.frame(data.table::fread("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/02262021-downMast_re-analysis/fp/fp_overlap/peak_obj_genename.tsv")) #450920
-# bedpe_file <- read.table("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/02262021-downMast_re-analysis/low-c_analysis/mast0035_all/ctcf_fp_eitherloop.bedpe")
-# bedpe_file <- read.table("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/02262021-downMast_re-analysis/low-c_analysis/mast0035_up/ctcf_fp_eitherloop.bedpe")
-# bedpe_file <- read.table("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/02262021-downMast_re-analysis/low-c_analysis/mast0035_down/ctcf_fp_eitherloop.bedpe")
-bedpe_file <- read.table("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/02262021-downMast_re-analysis/low-c_analysis/mast0035_down/no_ctcf_fp_eitherloop.bedpe") # mast0035 noCTCF loops
+peak_obj <- as.data.frame(data.table::fread("peak_obj_genename.tsv")) #450920
+# bedpe_file <- read.table("ctcf_fp_eitherloop.bedpe")
+# bedpe_file <- read.table("ctcf_fp_eitherloop.bedpe")
+# bedpe_file <- read.table("ctcf_fp_eitherloop.bedpe")
+bedpe_file <- read.table("no_ctcf_fp_eitherloop.bedpe") # mast0035 noCTCF loops
 # bedpe_file <- bedpe_file[(bedpe_file[, 3]-bedpe_file[, 2])==25000, ]
 # bedpe_file <- bedpe_file[(bedpe_file[, 5]-bedpe_file[, 2]) > 30*(25000/sqrt(2)), ] # select long-range loops to avoid peaks(anchors) too close
 
@@ -263,11 +263,6 @@ table(overlap_peak$peak_type) # down genes
 
 
 ####---------mecom down genes within no-ctcf loops
-geneSet <- list() 
-geneSet[[1]] <- overlap_peak$peak_gene_name[overlap_peak$peak_gene_name != "0"] %>% unique # 714
-geneSet[[2]] <- data.frame(fread("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/02262021-downMast_re-analysis/deg/deg_mast0035_down.txt"))[, 1]
-geneSet[[3]] <- data.frame(fread("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/02262021-downMast_re-analysis/deg/deg_mast0035_up.txt"))[, 1]
-geneSet[[4]] <- data.frame(fread("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/02262021-downMast_re-analysis/deg/deg_mast0035_all.txt"))[, 1]
 xx_2sample <- lt_hsc_exp[rownames(lt_hsc_exp) %in% geneSet[[1]] & rownames(lt_hsc_exp) %in% geneSet[[2]], 7:8] # 29
 
 # xx <- lt_hsc_exp[rownames(lt_hsc_exp) %in% geneSet[[1]] & rownames(lt_hsc_exp) %in% geneSet[[2]], 1:6] #28
@@ -300,13 +295,8 @@ library(data.table)
 library(dplyr)
 library(stringr)
 set.seed(9527)
-geneSet <- list() 
-geneSet[[1]] <- overlap_peak$peak_gene_name[overlap_peak$peak_gene_name != "0"] %>% unique # 2452
-geneSet[[2]] <- data.frame(fread("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/02262021-downMast_re-analysis/deg/deg_mast0035_down.txt"))[, 1]
-geneSet[[3]] <- data.frame(fread("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/02262021-downMast_re-analysis/deg/deg_mast0035_up.txt"))[, 1]
-geneSet[[4]] <- data.frame(fread("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/02262021-downMast_re-analysis/deg/deg_mast0035_all.txt"))[, 1]
 names(geneSet) <- c("loop_genes", "mast0035_down", "mast0035_up", "mast0035_all")
-# lt_hsc_exp <- data.frame(fread("/Users/fyu/Library/Mobile Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/11232020-ctcf-data/GSE125063_shCTCF_RNA_Seq_FPKM.tsv")) #2512
+# lt_hsc_exp <- data.frame(fread("GSE125063_shCTCF_RNA_Seq_FPKM.tsv")) #2512
 # lt_hsc_exp <- lt_hsc_exp[, 1:7] # 24331
 
 lt_hsc_exp <- ctcfmecom_mecom_profile # 33514
@@ -331,7 +321,7 @@ compare_means(value ~ variable, data = xx_2sample_melt, method="wilcox.test", pa
 # Visualize: Specify the comparisons you want
 xx_2sample_melt$value <- log1p(xx_2sample_melt$value)
 my_comparisons <- list(c("LT_HSC_MECOM+CTCFediting", "LT_HSC_MECOMediting"))
-setwd("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/20210801-cellrevision/bulkrnaseq_ana2")
+
 pdf("MECOM_down_genes_in_CTCF_loops-mecom+ctcf_mecom.pdf")
 p <- ggboxplot(xx_2sample_melt, x = "variable", y = "value",  legend = "none", color="black", palette = "jco", width=0.5, fill = "variable", title="MECOM down genes in CTCF loops")+
     # , add = "jitter", notch = TRUE)+ 
@@ -347,14 +337,8 @@ dev.off()
 # similar to S5f
 # non-ctcf loop genes
 
-peak_obj <- as.data.frame(data.table::fread("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/02262021-downMast_re-analysis/fp/fp_overlap/peak_obj_genename.tsv")) #450920
-# bedpe_file <- read.table("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/02262021-downMast_re-analysis/low-c_analysis/mast0035_all/ctcf_fp_eitherloop.bedpe")
-# bedpe_file <- read.table("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/02262021-downMast_re-analysis/low-c_analysis/mast0035_up/ctcf_fp_eitherloop.bedpe")
-# bedpe_file <- read.table("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/02262021-downMast_re-analysis/low-c_analysis/mast0035_down/ctcf_fp_eitherloop.bedpe")
-bedpe_file <- read.table("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/02262021-downMast_re-analysis/low-c_analysis/mast0035_down/no_ctcf_fp_eitherloop.bedpe") # mast0035 noCTCF loops
-# bedpe_file <- bedpe_file[(bedpe_file[, 3]-bedpe_file[, 2])==25000, ]
-# bedpe_file <- bedpe_file[(bedpe_file[, 5]-bedpe_file[, 2]) > 30*(25000/sqrt(2)), ] # select long-range loops to avoid peaks(anchors) too close
-
+peak_obj <- as.data.frame(data.table::fread("peak_obj_genename.tsv")) #450920
+bedpe_file <- read.table("no_ctcf_fp_eitherloop.bedpe") # mast0035 noCTCF loops
 
 if(sum(bedpe_file[, 2] <bedpe_file[, 5]) == nrow(bedpe_file)){
     temp_bed <- bedpe_file[, c(1, 2, 6)]
@@ -376,11 +360,6 @@ table(overlap_peak$peak_type) # down genes
   889 27760 
 
 ####---------mecom down genes within no-ctcf loops
-geneSet <- list() 
-geneSet[[1]] <- overlap_peak$peak_gene_name[overlap_peak$peak_gene_name != "0"] %>% unique # 714
-geneSet[[2]] <- data.frame(fread("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/02262021-downMast_re-analysis/deg/deg_mast0035_down.txt"))[, 1]
-geneSet[[3]] <- data.frame(fread("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/02262021-downMast_re-analysis/deg/deg_mast0035_up.txt"))[, 1]
-geneSet[[4]] <- data.frame(fread("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/02262021-downMast_re-analysis/deg/deg_mast0035_all.txt"))[, 1]
 xx_2sample <- lt_hsc_exp[rownames(lt_hsc_exp) %in% geneSet[[1]] & rownames(lt_hsc_exp) %in% geneSet[[2]], 7:8] # 29
 
 # xx <- lt_hsc_exp[rownames(lt_hsc_exp) %in% geneSet[[1]] & rownames(lt_hsc_exp) %in% geneSet[[2]], 1:6] #28
@@ -396,7 +375,7 @@ compare_means(value ~ variable, data = xx_2sample_melt, method="wilcox.test", pa
 # Visualize: Specify the comparisons you want
 xx_2sample_melt$value <- log1p(xx_2sample_melt$value)
 my_comparisons <- list(c("LT_HSC_MECOM+CTCFediting", "LT_HSC_MECOMediting"))
-setwd("/Users/fyu/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/Vijay/project/09022020-MECOM_Richard/data/20210801-cellrevision/bulkrnaseq_ana2")
+
 pdf("MECOM_down_genes_in_noCTCF_loops-mecom+ctcf_mecom.pdf")
 p <- ggboxplot(xx_2sample_melt, x = "variable", y = "value",  legend = "none", color="black", palette = "jco", width=0.5, fill = "variable", title="MECOM down genes in NOT CTCF loops")+
     # , add = "jitter", notch = TRUE)+ 
