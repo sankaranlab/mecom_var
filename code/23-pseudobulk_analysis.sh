@@ -63,7 +63,7 @@ save.image("pesudo-bulk_ana.rda")
 
 load("pesudo-bulk_ana.rda")
 mast0035down <- read.table("deg_mast0035_down.txt", header=F)[, 1]
-mast0035up <- read.table(deg_mast0035_up.txt", header=F)[, 1]
+mast0035up <- read.table("deg_mast0035_up.txt", header=F)[, 1]
 # rerun 404-450
 fclist <- sort((mecom_pseudo/aavs_pseudo))
 log2fclist <- sort((mecom_pseudo/aavs_pseudo) %>% log2)
