@@ -4,10 +4,11 @@ See manuscript [here](https://www.nature.com/articles/s41590-022-01370-4)
 
 Raw data repository is available [at this GEO Superseries](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE175521)
 
-HemeMap data can be found [HERE](./HemeMap data.md)
+HemeMap data can be found [HERE](./HemeMap_data.md)
 
 ### Contact
 - [Richard Voit](mailto:rvoit@broadinstitute.org)
+- [Fulong Yu](mailto:fyu@broadinstitute.org) (for HemeMap)
 - [Vijay Sankaran](mailto:sankaran@broadinstitute.org)
 
 <br><br>
